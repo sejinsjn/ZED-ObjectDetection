@@ -160,10 +160,12 @@ Falls es zu Problemen kommt, könnte das folgende helfen
 ```
 
 und ersetze 
-```bashcolcon build --symlink-install --cmake-args=-DCMAKE_BUILD_TYPE=Release --parallel-workers $(nproc)
+```bash
+  colcon build --symlink-install --cmake-args=-DCMAKE_BUILD_TYPE=Release --parallel-workers $(nproc)
 ```
 durch 
-```bashcolcon build --symlink-install --cmake-args=-DCMAKE_BUILD_TYPE=Release --parallel-workers 2
+```
+  bashcolcon build --symlink-install --cmake-args=-DCMAKE_BUILD_TYPE=Release --parallel-workers 2
 ```
 ersetzen.
 
