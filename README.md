@@ -159,8 +159,13 @@ Falls es zu Problemen kommt, könnte das folgende helfen
   pip install setuptools==58.2.0.
 ```
 
-und colcon build --symlink-install --cmake-args=-DCMAKE_BUILD_TYPE=Release --parallel-workers $(nproc)
-durch colcon build --symlink-install --cmake-args=-DCMAKE_BUILD_TYPE=Release --parallel-workers 2 ersetzen.
+und ersetze 
+```bashcolcon build --symlink-install --cmake-args=-DCMAKE_BUILD_TYPE=Release --parallel-workers $(nproc)
+```
+durch 
+```bashcolcon build --symlink-install --cmake-args=-DCMAKE_BUILD_TYPE=Release --parallel-workers 2
+```
+ersetzen.
 
 Führe den Befehl 
 ```bash
