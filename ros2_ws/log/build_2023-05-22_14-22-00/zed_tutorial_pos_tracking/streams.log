@@ -1,0 +1,50 @@
+[0.032s] Invoking command in '/home/barusu/ros2_ws/build/zed_tutorial_pos_tracking': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /home/barusu/.local/bin/cmake --build /home/barusu/ros2_ws/build/zed_tutorial_pos_tracking -- -j8 -l8
+[0.130s] -- Found ament_cmake_auto: 1.3.4 (/opt/ros/humble/share/ament_cmake_auto/cmake)
+[0.319s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.479s] -- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.487s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.505s] -- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.542s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.571s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.704s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.708s] -- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.970s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.833s] -- Found ament_lint_auto: 0.12.6 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.867s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.869s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.870s] -- Configured cppcheck include dirs: 
+[2.870s] -- Configured cppcheck exclude dirs and/or files: 
+[2.871s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[2.871s] -- Configured cpplint exclude dirs and/or files: 
+[2.872s] -- Added test 'lint_cmake' to check CMake code style
+[2.873s] -- Added test 'uncrustify' to check C / C++ code style
+[2.873s] -- Configured uncrustify additional arguments: 
+[2.873s] -- Added test 'xmllint' to check XML markup files
+[2.875s] -- Added test 'clang_format' to check C / C++ code style
+[2.878s] -- Configuring done (2.8s)
+[2.915s] -- Generating done (0.0s)
+[2.921s] -- Build files have been written to: /home/barusu/ros2_ws/build/zed_tutorial_pos_tracking
+[2.976s] [ 50%] [32mBuilding CXX object CMakeFiles/zed_tutorial_pos_tracking.dir/src/zed_tutorial_pos_tracking.cpp.o[0m
+[30.099s] [100%] [32m[1mLinking CXX executable zed_tutorial_pos_tracking[0m
+[30.377s] [100%] Built target zed_tutorial_pos_tracking
+[30.390s] Invoked command in '/home/barusu/ros2_ws/build/zed_tutorial_pos_tracking' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /home/barusu/.local/bin/cmake --build /home/barusu/ros2_ws/build/zed_tutorial_pos_tracking -- -j8 -l8
+[30.463s] Invoking command in '/home/barusu/ros2_ws/build/zed_tutorial_pos_tracking': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /home/barusu/.local/bin/cmake --install /home/barusu/ros2_ws/build/zed_tutorial_pos_tracking
+[30.503s] -- Install configuration: "Release"
+[30.503s] -- Execute custom install script
+[30.505s] -- Up-to-date symlink: /home/barusu/ros2_ws/install/zed_tutorial_pos_tracking/lib/zed_tutorial_pos_tracking/zed_tutorial_pos_tracking
+[30.505s] -- Up-to-date symlink: /home/barusu/ros2_ws/install/zed_tutorial_pos_tracking/share/ament_index/resource_index/package_run_dependencies/zed_tutorial_pos_tracking
+[30.506s] -- Up-to-date symlink: /home/barusu/ros2_ws/install/zed_tutorial_pos_tracking/share/ament_index/resource_index/parent_prefix_path/zed_tutorial_pos_tracking
+[30.506s] -- Up-to-date symlink: /home/barusu/ros2_ws/install/zed_tutorial_pos_tracking/share/zed_tutorial_pos_tracking/environment/ament_prefix_path.sh
+[30.506s] -- Up-to-date symlink: /home/barusu/ros2_ws/install/zed_tutorial_pos_tracking/share/zed_tutorial_pos_tracking/environment/ament_prefix_path.dsv
+[30.507s] -- Up-to-date symlink: /home/barusu/ros2_ws/install/zed_tutorial_pos_tracking/share/zed_tutorial_pos_tracking/environment/path.sh
+[30.507s] -- Up-to-date symlink: /home/barusu/ros2_ws/install/zed_tutorial_pos_tracking/share/zed_tutorial_pos_tracking/environment/path.dsv
+[30.507s] -- Up-to-date symlink: /home/barusu/ros2_ws/install/zed_tutorial_pos_tracking/share/zed_tutorial_pos_tracking/local_setup.bash
+[30.508s] -- Up-to-date symlink: /home/barusu/ros2_ws/install/zed_tutorial_pos_tracking/share/zed_tutorial_pos_tracking/local_setup.sh
+[30.508s] -- Up-to-date symlink: /home/barusu/ros2_ws/install/zed_tutorial_pos_tracking/share/zed_tutorial_pos_tracking/local_setup.zsh
+[30.509s] -- Up-to-date symlink: /home/barusu/ros2_ws/install/zed_tutorial_pos_tracking/share/zed_tutorial_pos_tracking/local_setup.dsv
+[30.509s] -- Symlinking: /home/barusu/ros2_ws/install/zed_tutorial_pos_tracking/share/zed_tutorial_pos_tracking/package.dsv
+[30.513s] -- Up-to-date symlink: /home/barusu/ros2_ws/install/zed_tutorial_pos_tracking/share/ament_index/resource_index/packages/zed_tutorial_pos_tracking
+[30.514s] -- Up-to-date symlink: /home/barusu/ros2_ws/install/zed_tutorial_pos_tracking/share/zed_tutorial_pos_tracking/cmake/zed_tutorial_pos_trackingConfig.cmake
+[30.514s] -- Up-to-date symlink: /home/barusu/ros2_ws/install/zed_tutorial_pos_tracking/share/zed_tutorial_pos_tracking/cmake/zed_tutorial_pos_trackingConfig-version.cmake
+[30.515s] -- Up-to-date symlink: /home/barusu/ros2_ws/install/zed_tutorial_pos_tracking/share/zed_tutorial_pos_tracking/package.xml
+[30.528s] Invoked command in '/home/barusu/ros2_ws/build/zed_tutorial_pos_tracking' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /home/barusu/.local/bin/cmake --install /home/barusu/ros2_ws/build/zed_tutorial_pos_tracking

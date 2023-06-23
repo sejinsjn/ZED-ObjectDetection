@@ -1,0 +1,1 @@
+/home/barusu/ros2_ws/build/zed_topic_benchmark_component/ament_cmake_environment_hooks/local_setup.sh

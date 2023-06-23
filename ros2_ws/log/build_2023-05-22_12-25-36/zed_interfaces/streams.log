@@ -1,0 +1,616 @@
+[0.017s] Invoking command in '/home/barusu/ros2_ws/build/zed_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/barusu/ros2_ws/install/launch_testing_examples:/home/barusu/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/barusu/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/barusu/ros2_ws/install/examples_rclpy_minimal_service:/home/barusu/ros2_ws/install/examples_rclpy_minimal_publisher:/home/barusu/ros2_ws/install/examples_rclpy_minimal_client:/home/barusu/ros2_ws/install/examples_rclpy_minimal_action_server:/home/barusu/ros2_ws/install/examples_rclpy_minimal_action_client:/home/barusu/ros2_ws/install/examples_rclpy_guard_conditions:/home/barusu/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /home/barusu/.local/bin/cmake /home/barusu/ros2_ws/src/zed-ros2-wrapper/zed-ros2-interfaces -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/barusu/ros2_ws/install/zed_interfaces
+[0.140s] -- The C compiler identification is GNU 11.3.0
+[0.197s] -- The CXX compiler identification is GNU 11.3.0
+[0.211s] -- Detecting C compiler ABI info
+[0.269s] -- Detecting C compiler ABI info - done
+[0.279s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.280s] -- Detecting C compile features
+[0.281s] -- Detecting C compile features - done
+[0.284s] -- Detecting CXX compiler ABI info
+[0.346s] -- Detecting CXX compiler ABI info - done
+[0.357s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.358s] -- Detecting CXX compile features
+[0.358s] -- Detecting CXX compile features - done
+[0.360s] -- Found ament_cmake_auto: 1.3.4 (/opt/ros/humble/share/ament_cmake_auto/cmake)
+[0.881s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[0.937s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.055s] -- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.059s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.068s] -- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.084s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.107s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.295s] -- Found ament_lint_auto: 0.12.6 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.575s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[1.894s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.017s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.041s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.6", minimum required is "3.6") 
+[2.043s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[2.072s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.6", minimum required is "3.5") 
+[2.072s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.072s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[2.073s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[2.092s] -- Found PythonExtra: .so  
+[2.193s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.196s] -- Added test 'lint_cmake' to check CMake code style
+[2.199s] -- Added test 'xmllint' to check XML markup files
+[2.206s] -- Configuring done (2.2s)
+[2.281s] -- Generating done (0.1s)
+[2.284s] -- Build files have been written to: /home/barusu/ros2_ws/build/zed_interfaces
+[2.297s] Invoked command in '/home/barusu/ros2_ws/build/zed_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/barusu/ros2_ws/install/launch_testing_examples:/home/barusu/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/barusu/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/barusu/ros2_ws/install/examples_rclpy_minimal_service:/home/barusu/ros2_ws/install/examples_rclpy_minimal_publisher:/home/barusu/ros2_ws/install/examples_rclpy_minimal_client:/home/barusu/ros2_ws/install/examples_rclpy_minimal_action_server:/home/barusu/ros2_ws/install/examples_rclpy_minimal_action_client:/home/barusu/ros2_ws/install/examples_rclpy_guard_conditions:/home/barusu/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /home/barusu/.local/bin/cmake /home/barusu/ros2_ws/src/zed-ros2-wrapper/zed-ros2-interfaces -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/barusu/ros2_ws/install/zed_interfaces
+[2.299s] Invoking command in '/home/barusu/ros2_ws/build/zed_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/barusu/ros2_ws/install/launch_testing_examples:/home/barusu/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/barusu/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/barusu/ros2_ws/install/examples_rclpy_minimal_service:/home/barusu/ros2_ws/install/examples_rclpy_minimal_publisher:/home/barusu/ros2_ws/install/examples_rclpy_minimal_client:/home/barusu/ros2_ws/install/examples_rclpy_minimal_action_server:/home/barusu/ros2_ws/install/examples_rclpy_minimal_action_client:/home/barusu/ros2_ws/install/examples_rclpy_guard_conditions:/home/barusu/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /home/barusu/.local/bin/cmake --build /home/barusu/ros2_ws/build/zed_interfaces -- -j8 -l8
+[2.344s] [  0%] [34m[1mGenerating C code for ROS interfaces[0m
+[2.348s] [  0%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[2.350s] [  0%] Built target ament_cmake_python_symlink_zed_interfaces
+[2.544s] running egg_info
+[2.544s] creating zed_interfaces.egg-info
+[2.565s] writing zed_interfaces.egg-info/PKG-INFO
+[2.565s] writing dependency_links to zed_interfaces.egg-info/dependency_links.txt
+[2.565s] writing top-level names to zed_interfaces.egg-info/top_level.txt
+[2.565s] writing manifest file 'zed_interfaces.egg-info/SOURCES.txt'
+[2.608s] reading manifest file 'zed_interfaces.egg-info/SOURCES.txt'
+[2.608s] writing manifest file 'zed_interfaces.egg-info/SOURCES.txt'
+[2.630s] [  0%] Built target ament_cmake_python_build_zed_interfaces_egg
+[3.949s] [  0%] Built target zed_interfaces__cpp
+[3.954s] [  1%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[3.954s] [  2%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[3.955s] [  2%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[4.127s] [  3%] [32mBuilding C object CMakeFiles/zed_interfaces__rosidl_generator_c.dir/rosidl_generator_c/zed_interfaces/msg/detail/object__functions.c.o[0m
+[4.127s] [  4%] [32mBuilding C object CMakeFiles/zed_interfaces__rosidl_generator_c.dir/rosidl_generator_c/zed_interfaces/msg/detail/objects_stamped__functions.c.o[0m
+[4.128s] [  4%] [32mBuilding C object CMakeFiles/zed_interfaces__rosidl_generator_c.dir/rosidl_generator_c/zed_interfaces/msg/detail/keypoint2_di__functions.c.o[0m
+[4.128s] [  5%] [32mBuilding C object CMakeFiles/zed_interfaces__rosidl_generator_c.dir/rosidl_generator_c/zed_interfaces/msg/detail/keypoint2_df__functions.c.o[0m
+[4.128s] [  6%] [32mBuilding C object CMakeFiles/zed_interfaces__rosidl_generator_c.dir/rosidl_generator_c/zed_interfaces/msg/detail/keypoint3_d__functions.c.o[0m
+[4.278s] [  7%] [32mBuilding C object CMakeFiles/zed_interfaces__rosidl_generator_c.dir/rosidl_generator_c/zed_interfaces/msg/detail/bounding_box2_di__functions.c.o[0m
+[4.278s] [  7%] [32mBuilding C object CMakeFiles/zed_interfaces__rosidl_generator_c.dir/rosidl_generator_c/zed_interfaces/msg/detail/bounding_box2_df__functions.c.o[0m
+[4.286s] [  7%] [32mBuilding C object CMakeFiles/zed_interfaces__rosidl_generator_c.dir/rosidl_generator_c/zed_interfaces/msg/detail/bounding_box3_d__functions.c.o[0m
+[4.289s] [  8%] [32mBuilding C object CMakeFiles/zed_interfaces__rosidl_generator_c.dir/rosidl_generator_c/zed_interfaces/msg/detail/skeleton2_d__functions.c.o[0m
+[4.334s] [  9%] [32mBuilding C object CMakeFiles/zed_interfaces__rosidl_generator_c.dir/rosidl_generator_c/zed_interfaces/msg/detail/skeleton3_d__functions.c.o[0m
+[4.454s] [  9%] [32mBuilding C object CMakeFiles/zed_interfaces__rosidl_generator_c.dir/rosidl_generator_c/zed_interfaces/msg/detail/depth_info_stamped__functions.c.o[0m
+[4.454s] [ 10%] [32mBuilding C object CMakeFiles/zed_interfaces__rosidl_generator_c.dir/rosidl_generator_c/zed_interfaces/msg/detail/pos_track_status__functions.c.o[0m
+[4.455s] [ 11%] [32mBuilding C object CMakeFiles/zed_interfaces__rosidl_generator_c.dir/rosidl_generator_c/zed_interfaces/msg/detail/plane_stamped__functions.c.o[0m
+[4.458s] [ 11%] [32mBuilding C object CMakeFiles/zed_interfaces__rosidl_generator_c.dir/rosidl_generator_c/zed_interfaces/msg/detail/heartbeat__functions.c.o[0m
+[4.499s] [ 12%] [32mBuilding C object CMakeFiles/zed_interfaces__rosidl_generator_c.dir/rosidl_generator_c/zed_interfaces/srv/detail/set_pose__functions.c.o[0m
+[4.597s] [ 12%] [32mBuilding C object CMakeFiles/zed_interfaces__rosidl_generator_c.dir/rosidl_generator_c/zed_interfaces/srv/detail/start_svo_rec__functions.c.o[0m
+[4.611s] [ 13%] [32mBuilding C object CMakeFiles/zed_interfaces__rosidl_generator_c.dir/rosidl_generator_c/zed_interfaces/srv/detail/set_roi__functions.c.o[0m
+[4.810s] [ 14%] [32m[1mLinking C shared library libzed_interfaces__rosidl_generator_c.so[0m
+[4.844s] [ 14%] Built target zed_interfaces__rosidl_generator_c
+[4.852s] [ 15%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[4.852s] [ 16%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[4.853s] [ 17%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[5.840s] [ 18%] [32mBuilding CXX object CMakeFiles/zed_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/zed_interfaces/msg/object__type_support.cpp.o[0m
+[5.840s] [ 18%] [32mBuilding CXX object CMakeFiles/zed_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/zed_interfaces/msg/objects_stamped__type_support.cpp.o[0m
+[5.840s] [ 19%] [32mBuilding CXX object CMakeFiles/zed_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/zed_interfaces/msg/keypoint2_di__type_support.cpp.o[0m
+[6.385s] [ 19%] [32mBuilding CXX object CMakeFiles/zed_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/zed_interfaces/msg/keypoint2_df__type_support.cpp.o[0m
+[6.403s] [ 20%] [32mBuilding CXX object CMakeFiles/zed_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/zed_interfaces/msg/keypoint3_d__type_support.cpp.o[0m
+[6.406s] [ 21%] [32mBuilding CXX object CMakeFiles/zed_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/zed_interfaces/msg/bounding_box2_di__type_support.cpp.o[0m
+[6.653s] [ 22%] [32mBuilding CXX object CMakeFiles/zed_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/zed_interfaces/msg/detail/dds_fastrtps/object__type_support.cpp.o[0m
+[6.922s] [ 22%] [32mBuilding CXX object CMakeFiles/zed_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/zed_interfaces/msg/bounding_box2_df__type_support.cpp.o[0m
+[6.952s] [ 23%] [32mBuilding CXX object CMakeFiles/zed_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/zed_interfaces/msg/bounding_box3_d__type_support.cpp.o[0m
+[6.963s] [ 24%] [32mBuilding CXX object CMakeFiles/zed_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/zed_interfaces/msg/skeleton2_d__type_support.cpp.o[0m
+[7.130s] [ 25%] [32mBuilding CXX object CMakeFiles/zed_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/zed_interfaces/msg/detail/object__type_support.cpp.o[0m
+[7.442s] [ 25%] [32mBuilding CXX object CMakeFiles/zed_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/zed_interfaces/msg/skeleton3_d__type_support.cpp.o[0m
+[7.501s] [ 26%] [32mBuilding CXX object CMakeFiles/zed_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/zed_interfaces/msg/depth_info_stamped__type_support.cpp.o[0m
+[7.533s] [ 26%] [32mBuilding CXX object CMakeFiles/zed_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/zed_interfaces/msg/plane_stamped__type_support.cpp.o[0m
+[7.549s] [ 26%] [32mBuilding CXX object CMakeFiles/zed_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/zed_interfaces/msg/detail/dds_fastrtps/objects_stamped__type_support.cpp.o[0m
+[7.706s] [ 26%] [32mBuilding CXX object CMakeFiles/zed_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/zed_interfaces/msg/object__type_support.cpp.o[0m
+[7.756s] [ 27%] [32mBuilding CXX object CMakeFiles/zed_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/zed_interfaces/msg/objects_stamped__type_support.cpp.o[0m
+[7.806s] [ 28%] [32mBuilding CXX object CMakeFiles/zed_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/zed_interfaces/msg/keypoint2_di__type_support.cpp.o[0m
+[7.852s] [ 28%] [32mBuilding CXX object CMakeFiles/zed_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/zed_interfaces/msg/keypoint2_df__type_support.cpp.o[0m
+[7.897s] [ 29%] [32mBuilding CXX object CMakeFiles/zed_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/zed_interfaces/msg/keypoint3_d__type_support.cpp.o[0m
+[7.941s] [ 29%] [32mBuilding CXX object CMakeFiles/zed_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/zed_interfaces/msg/bounding_box2_di__type_support.cpp.o[0m
+[7.968s] [ 30%] [32mBuilding CXX object CMakeFiles/zed_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/zed_interfaces/msg/pos_track_status__type_support.cpp.o[0m
+[7.985s] [ 31%] [32mBuilding CXX object CMakeFiles/zed_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/zed_interfaces/msg/bounding_box2_df__type_support.cpp.o[0m
+[8.031s] [ 32%] [32mBuilding CXX object CMakeFiles/zed_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/zed_interfaces/msg/bounding_box3_d__type_support.cpp.o[0m
+[8.064s] [ 33%] [32mBuilding CXX object CMakeFiles/zed_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/zed_interfaces/msg/heartbeat__type_support.cpp.o[0m
+[8.068s] [ 33%] [32mBuilding CXX object CMakeFiles/zed_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/zed_interfaces/srv/set_pose__type_support.cpp.o[0m
+[8.076s] [ 33%] [32mBuilding CXX object CMakeFiles/zed_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/zed_interfaces/msg/skeleton2_d__type_support.cpp.o[0m
+[8.122s] [ 34%] [32mBuilding CXX object CMakeFiles/zed_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/zed_interfaces/msg/skeleton3_d__type_support.cpp.o[0m
+[8.128s] [ 34%] [32mBuilding CXX object CMakeFiles/zed_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/zed_interfaces/msg/detail/objects_stamped__type_support.cpp.o[0m
+[8.172s] [ 35%] [32mBuilding CXX object CMakeFiles/zed_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/zed_interfaces/msg/depth_info_stamped__type_support.cpp.o[0m
+[8.224s] [ 35%] [32mBuilding CXX object CMakeFiles/zed_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/zed_interfaces/msg/plane_stamped__type_support.cpp.o[0m
+[8.277s] [ 36%] [32mBuilding CXX object CMakeFiles/zed_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/zed_interfaces/msg/pos_track_status__type_support.cpp.o[0m
+[8.323s] [ 36%] [32mBuilding CXX object CMakeFiles/zed_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/zed_interfaces/msg/heartbeat__type_support.cpp.o[0m
+[8.355s] [ 37%] [32mBuilding C object CMakeFiles/zed_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/zed_interfaces/msg/detail/object__type_support.c.o[0m
+[8.369s] [ 38%] [32mBuilding CXX object CMakeFiles/zed_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/zed_interfaces/srv/set_pose__type_support.cpp.o[0m
+[8.420s] [ 39%] [32mBuilding CXX object CMakeFiles/zed_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/zed_interfaces/srv/start_svo_rec__type_support.cpp.o[0m
+[8.471s] [ 39%] [32mBuilding C object CMakeFiles/zed_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/zed_interfaces/msg/detail/objects_stamped__type_support.c.o[0m
+[8.473s] [ 39%] [32mBuilding CXX object CMakeFiles/zed_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/zed_interfaces/srv/set_roi__type_support.cpp.o[0m
+[8.495s] [ 39%] [32mBuilding CXX object CMakeFiles/zed_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/zed_interfaces/msg/detail/object__type_support_c.cpp.o[0m
+[8.521s] [ 40%] [32mBuilding CXX object CMakeFiles/zed_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/zed_interfaces/msg/detail/dds_fastrtps/keypoint2_di__type_support.cpp.o[0m
+[8.525s] [ 41%] [32m[1mLinking CXX shared library libzed_interfaces__rosidl_typesupport_c.so[0m
+[8.553s] [ 42%] [32mBuilding C object CMakeFiles/zed_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/zed_interfaces/msg/detail/keypoint2_di__type_support.c.o[0m
+[8.595s] [ 42%] Built target zed_interfaces__rosidl_typesupport_c
+[8.600s] [ 43%] [32mBuilding CXX object CMakeFiles/zed_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/zed_interfaces/msg/detail/dds_fastrtps/keypoint2_df__type_support.cpp.o[0m
+[8.605s] [ 44%] [32mBuilding CXX object CMakeFiles/zed_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/zed_interfaces/srv/start_svo_rec__type_support.cpp.o[0m
+[8.624s] [ 45%] [32mBuilding C object CMakeFiles/zed_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/zed_interfaces/msg/detail/keypoint2_df__type_support.c.o[0m
+[8.624s] [ 45%] [32mBuilding CXX object CMakeFiles/zed_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/zed_interfaces/srv/set_roi__type_support.cpp.o[0m
+[8.696s] [ 46%] [32mBuilding C object CMakeFiles/zed_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/zed_interfaces/msg/detail/keypoint3_d__type_support.c.o[0m
+[8.765s] [ 47%] [32mBuilding C object CMakeFiles/zed_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/zed_interfaces/msg/detail/bounding_box2_di__type_support.c.o[0m
+[8.834s] [ 47%] [32mBuilding C object CMakeFiles/zed_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/zed_interfaces/msg/detail/bounding_box2_df__type_support.c.o[0m
+[8.862s] [ 47%] [32mBuilding CXX object CMakeFiles/zed_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/zed_interfaces/msg/detail/dds_fastrtps/keypoint3_d__type_support.cpp.o[0m
+[8.903s] [ 48%] [32mBuilding C object CMakeFiles/zed_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/zed_interfaces/msg/detail/bounding_box3_d__type_support.c.o[0m
+[8.974s] [ 49%] [32mBuilding C object CMakeFiles/zed_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/zed_interfaces/msg/detail/skeleton2_d__type_support.c.o[0m
+[9.043s] [ 49%] [32mBuilding C object CMakeFiles/zed_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/zed_interfaces/msg/detail/skeleton3_d__type_support.c.o[0m
+[9.113s] [ 50%] [32mBuilding C object CMakeFiles/zed_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/zed_interfaces/msg/detail/depth_info_stamped__type_support.c.o[0m
+[9.174s] [ 51%] [32mBuilding C object CMakeFiles/zed_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/zed_interfaces/msg/detail/plane_stamped__type_support.c.o[0m
+[9.174s] [ 51%] [32mBuilding C object CMakeFiles/zed_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/zed_interfaces/msg/detail/pos_track_status__type_support.c.o[0m
+[9.179s] [ 51%] [32m[1mLinking CXX shared library libzed_interfaces__rosidl_typesupport_cpp.so[0m
+[9.234s] [ 52%] [32mBuilding C object CMakeFiles/zed_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/zed_interfaces/msg/detail/heartbeat__type_support.c.o[0m
+[9.249s] [ 52%] Built target zed_interfaces__rosidl_typesupport_cpp
+[9.255s] [ 52%] [32mBuilding C object CMakeFiles/zed_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/zed_interfaces/srv/detail/set_pose__type_support.c.o[0m
+[9.261s] [ 53%] [32mBuilding C object CMakeFiles/zed_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/zed_interfaces/srv/detail/start_svo_rec__type_support.c.o[0m
+[9.302s] [ 54%] [32mBuilding C object CMakeFiles/zed_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/zed_interfaces/srv/detail/set_roi__type_support.c.o[0m
+[9.318s] [ 55%] [32mBuilding CXX object CMakeFiles/zed_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/zed_interfaces/msg/detail/dds_fastrtps/bounding_box2_di__type_support.cpp.o[0m
+[9.336s] [ 57%] [32mBuilding CXX object CMakeFiles/zed_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/zed_interfaces/msg/detail/keypoint2_di__type_support_c.cpp.o[0m
+[9.337s] [ 57%] [32mBuilding CXX object CMakeFiles/zed_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/zed_interfaces/msg/detail/objects_stamped__type_support_c.cpp.o[0m
+[9.348s] [ 57%] [32mBuilding CXX object CMakeFiles/zed_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/zed_interfaces/msg/detail/keypoint2_df__type_support_c.cpp.o[0m
+[9.378s] [ 57%] [32m[1mLinking C shared library libzed_interfaces__rosidl_typesupport_introspection_c.so[0m
+[9.380s] [ 58%] [32mBuilding CXX object CMakeFiles/zed_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/zed_interfaces/msg/detail/keypoint2_di__type_support.cpp.o[0m
+[9.407s] [ 58%] [32mBuilding CXX object CMakeFiles/zed_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/zed_interfaces/msg/detail/dds_fastrtps/bounding_box2_df__type_support.cpp.o[0m
+[9.435s] [ 58%] Built target zed_interfaces__rosidl_typesupport_introspection_c
+[9.440s] [ 59%] [32mBuilding CXX object CMakeFiles/zed_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/zed_interfaces/msg/detail/dds_fastrtps/bounding_box3_d__type_support.cpp.o[0m
+[9.666s] [ 60%] [32mBuilding CXX object CMakeFiles/zed_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/zed_interfaces/msg/detail/dds_fastrtps/skeleton2_d__type_support.cpp.o[0m
+[10.023s] [ 61%] [32mBuilding CXX object CMakeFiles/zed_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/zed_interfaces/msg/detail/keypoint3_d__type_support_c.cpp.o[0m
+[10.040s] [ 61%] [32mBuilding CXX object CMakeFiles/zed_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/zed_interfaces/msg/detail/dds_fastrtps/skeleton3_d__type_support.cpp.o[0m
+[10.045s] [ 62%] [32mBuilding CXX object CMakeFiles/zed_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/zed_interfaces/msg/detail/bounding_box2_di__type_support_c.cpp.o[0m
+[10.149s] [ 63%] [32mBuilding CXX object CMakeFiles/zed_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/zed_interfaces/msg/detail/dds_fastrtps/depth_info_stamped__type_support.cpp.o[0m
+[10.162s] [ 64%] [32mBuilding CXX object CMakeFiles/zed_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/zed_interfaces/msg/detail/keypoint2_df__type_support.cpp.o[0m
+[10.219s] [ 65%] [32mBuilding CXX object CMakeFiles/zed_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/zed_interfaces/msg/detail/dds_fastrtps/plane_stamped__type_support.cpp.o[0m
+[10.248s] [ 65%] [32mBuilding CXX object CMakeFiles/zed_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/zed_interfaces/msg/detail/dds_fastrtps/pos_track_status__type_support.cpp.o[0m
+[10.522s] [ 66%] [32mBuilding CXX object CMakeFiles/zed_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/zed_interfaces/msg/detail/dds_fastrtps/heartbeat__type_support.cpp.o[0m
+[10.729s] [ 66%] [32mBuilding CXX object CMakeFiles/zed_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/zed_interfaces/msg/detail/bounding_box2_df__type_support_c.cpp.o[0m
+[10.742s] [ 67%] [32mBuilding CXX object CMakeFiles/zed_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/zed_interfaces/msg/detail/bounding_box3_d__type_support_c.cpp.o[0m
+[10.851s] [ 67%] [32mBuilding CXX object CMakeFiles/zed_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/zed_interfaces/srv/detail/dds_fastrtps/set_pose__type_support.cpp.o[0m
+[10.931s] [ 67%] [32mBuilding CXX object CMakeFiles/zed_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/zed_interfaces/msg/detail/keypoint3_d__type_support.cpp.o[0m
+[10.993s] [ 68%] [32mBuilding CXX object CMakeFiles/zed_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/zed_interfaces/msg/detail/bounding_box2_di__type_support.cpp.o[0m
+[11.068s] [ 69%] [32mBuilding CXX object CMakeFiles/zed_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/zed_interfaces/srv/detail/dds_fastrtps/start_svo_rec__type_support.cpp.o[0m
+[11.136s] [ 70%] [32mBuilding CXX object CMakeFiles/zed_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/zed_interfaces/srv/detail/dds_fastrtps/set_roi__type_support.cpp.o[0m
+[11.423s] [ 70%] [32mBuilding CXX object CMakeFiles/zed_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/zed_interfaces/msg/detail/skeleton2_d__type_support_c.cpp.o[0m
+[11.439s] [ 71%] [32mBuilding CXX object CMakeFiles/zed_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/zed_interfaces/msg/detail/skeleton3_d__type_support_c.cpp.o[0m
+[11.446s] [ 72%] [32mBuilding CXX object CMakeFiles/zed_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/zed_interfaces/msg/detail/depth_info_stamped__type_support_c.cpp.o[0m
+[11.698s] [ 73%] [32mBuilding CXX object CMakeFiles/zed_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/zed_interfaces/msg/detail/bounding_box2_df__type_support.cpp.o[0m
+[11.735s] [ 73%] [32mBuilding CXX object CMakeFiles/zed_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/zed_interfaces/msg/detail/bounding_box3_d__type_support.cpp.o[0m
+[11.777s] [ 74%] [32mBuilding CXX object CMakeFiles/zed_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/zed_interfaces/msg/detail/skeleton2_d__type_support.cpp.o[0m
+[11.994s] [ 74%] [32mBuilding CXX object CMakeFiles/zed_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/zed_interfaces/msg/detail/skeleton3_d__type_support.cpp.o[0m
+[12.038s] [ 74%] [32m[1mLinking CXX shared library libzed_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[12.121s] [ 74%] [32mBuilding CXX object CMakeFiles/zed_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/zed_interfaces/msg/detail/plane_stamped__type_support_c.cpp.o[0m
+[12.141s] [ 75%] [32mBuilding CXX object CMakeFiles/zed_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/zed_interfaces/msg/detail/pos_track_status__type_support_c.cpp.o[0m
+[12.170s] [ 76%] [32mBuilding CXX object CMakeFiles/zed_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/zed_interfaces/msg/detail/heartbeat__type_support_c.cpp.o[0m
+[12.175s] [ 76%] Built target zed_interfaces__rosidl_typesupport_fastrtps_cpp
+[12.180s] [ 76%] [32mBuilding CXX object CMakeFiles/zed_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/zed_interfaces/srv/detail/set_pose__type_support_c.cpp.o[0m
+[12.485s] [ 77%] [32mBuilding CXX object CMakeFiles/zed_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/zed_interfaces/msg/detail/depth_info_stamped__type_support.cpp.o[0m
+[12.515s] [ 78%] [32mBuilding CXX object CMakeFiles/zed_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/zed_interfaces/msg/detail/plane_stamped__type_support.cpp.o[0m
+[12.562s] [ 78%] [32mBuilding CXX object CMakeFiles/zed_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/zed_interfaces/msg/detail/pos_track_status__type_support.cpp.o[0m
+[12.819s] [ 79%] [32mBuilding CXX object CMakeFiles/zed_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/zed_interfaces/srv/detail/start_svo_rec__type_support_c.cpp.o[0m
+[12.832s] [ 80%] [32mBuilding CXX object CMakeFiles/zed_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/zed_interfaces/msg/detail/heartbeat__type_support.cpp.o[0m
+[12.846s] [ 81%] [32mBuilding CXX object CMakeFiles/zed_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/zed_interfaces/srv/detail/set_roi__type_support_c.cpp.o[0m
+[12.957s] [ 82%] [32mBuilding CXX object CMakeFiles/zed_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/zed_interfaces/srv/detail/set_pose__type_support.cpp.o[0m
+[13.042s] [ 82%] [32mBuilding CXX object CMakeFiles/zed_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/zed_interfaces/srv/detail/start_svo_rec__type_support.cpp.o[0m
+[13.267s] [ 83%] [32mBuilding CXX object CMakeFiles/zed_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/zed_interfaces/srv/detail/set_roi__type_support.cpp.o[0m
+[13.611s] [ 83%] [32m[1mLinking CXX shared library libzed_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[13.689s] [ 83%] Built target zed_interfaces__rosidl_typesupport_fastrtps_c
+[13.815s] [ 84%] [32m[1mLinking CXX shared library libzed_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[13.867s] [ 84%] Built target zed_interfaces__rosidl_typesupport_introspection_cpp
+[13.875s] [ 84%] Built target zed_interfaces
+[13.885s] [ 85%] [34m[1mGenerating Python code for ROS interfaces[0m
+[16.982s] [ 85%] Built target zed_interfaces__py
+[16.992s] [ 85%] [32mBuilding C object CMakeFiles/zed_interfaces__rosidl_generator_py.dir/rosidl_generator_py/zed_interfaces/msg/_object_s.c.o[0m
+[16.992s] [ 86%] [32mBuilding C object CMakeFiles/zed_interfaces__rosidl_generator_py.dir/rosidl_generator_py/zed_interfaces/msg/_objects_stamped_s.c.o[0m
+[16.992s] [ 87%] [32mBuilding C object CMakeFiles/zed_interfaces__rosidl_generator_py.dir/rosidl_generator_py/zed_interfaces/msg/_keypoint2_di_s.c.o[0m
+[16.993s] [ 87%] [32mBuilding C object CMakeFiles/zed_interfaces__rosidl_generator_py.dir/rosidl_generator_py/zed_interfaces/msg/_keypoint2_df_s.c.o[0m
+[16.993s] [ 88%] [32mBuilding C object CMakeFiles/zed_interfaces__rosidl_generator_py.dir/rosidl_generator_py/zed_interfaces/msg/_keypoint3_d_s.c.o[0m
+[16.993s] [ 88%] [32mBuilding C object CMakeFiles/zed_interfaces__rosidl_generator_py.dir/rosidl_generator_py/zed_interfaces/msg/_bounding_box2_di_s.c.o[0m
+[16.995s] [ 89%] [32mBuilding C object CMakeFiles/zed_interfaces__rosidl_generator_py.dir/rosidl_generator_py/zed_interfaces/msg/_bounding_box3_d_s.c.o[0m
+[16.995s] [ 90%] [32mBuilding C object CMakeFiles/zed_interfaces__rosidl_generator_py.dir/rosidl_generator_py/zed_interfaces/msg/_bounding_box2_df_s.c.o[0m
+[17.228s] [ 90%] [32mBuilding C object CMakeFiles/zed_interfaces__rosidl_generator_py.dir/rosidl_generator_py/zed_interfaces/msg/_skeleton2_d_s.c.o[0m
+[17.229s] [ 91%] [32mBuilding C object CMakeFiles/zed_interfaces__rosidl_generator_py.dir/rosidl_generator_py/zed_interfaces/msg/_skeleton3_d_s.c.o[0m
+[17.229s] [ 92%] [32mBuilding C object CMakeFiles/zed_interfaces__rosidl_generator_py.dir/rosidl_generator_py/zed_interfaces/msg/_depth_info_stamped_s.c.o[0m
+[17.240s] [ 92%] [32mBuilding C object CMakeFiles/zed_interfaces__rosidl_generator_py.dir/rosidl_generator_py/zed_interfaces/msg/_plane_stamped_s.c.o[0m
+[17.242s] [ 93%] [32mBuilding C object CMakeFiles/zed_interfaces__rosidl_generator_py.dir/rosidl_generator_py/zed_interfaces/msg/_pos_track_status_s.c.o[0m
+[17.246s] [ 94%] [32mBuilding C object CMakeFiles/zed_interfaces__rosidl_generator_py.dir/rosidl_generator_py/zed_interfaces/msg/_heartbeat_s.c.o[0m
+[17.273s] [ 94%] [32mBuilding C object CMakeFiles/zed_interfaces__rosidl_generator_py.dir/rosidl_generator_py/zed_interfaces/srv/_set_pose_s.c.o[0m
+[17.391s] [ 95%] [32mBuilding C object CMakeFiles/zed_interfaces__rosidl_generator_py.dir/rosidl_generator_py/zed_interfaces/srv/_start_svo_rec_s.c.o[0m
+[17.469s] [ 95%] [32mBuilding C object CMakeFiles/zed_interfaces__rosidl_generator_py.dir/rosidl_generator_py/zed_interfaces/srv/_set_roi_s.c.o[0m
+[17.608s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/zed_interfaces/libzed_interfaces__rosidl_generator_py.so[0m
+[17.639s] [ 96%] Built target zed_interfaces__rosidl_generator_py
+[17.649s] [ 98%] [32mBuilding C object CMakeFiles/zed_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/zed_interfaces/_zed_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[17.649s] [ 98%] [32mBuilding C object CMakeFiles/zed_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/zed_interfaces/_zed_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[17.649s] [ 99%] [32mBuilding C object CMakeFiles/zed_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/zed_interfaces/_zed_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[17.982s] [100%] [32m[1mLinking C shared library rosidl_generator_py/zed_interfaces/zed_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[17.982s] [100%] [32m[1mLinking C shared library rosidl_generator_py/zed_interfaces/zed_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[17.982s] [100%] [32m[1mLinking C shared library rosidl_generator_py/zed_interfaces/zed_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[18.015s] [100%] Built target zed_interfaces__rosidl_typesupport_c__pyext
+[18.015s] [100%] Built target zed_interfaces__rosidl_typesupport_introspection_c__pyext
+[18.015s] [100%] Built target zed_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[18.025s] Invoked command in '/home/barusu/ros2_ws/build/zed_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/barusu/ros2_ws/install/launch_testing_examples:/home/barusu/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/barusu/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/barusu/ros2_ws/install/examples_rclpy_minimal_service:/home/barusu/ros2_ws/install/examples_rclpy_minimal_publisher:/home/barusu/ros2_ws/install/examples_rclpy_minimal_client:/home/barusu/ros2_ws/install/examples_rclpy_minimal_action_server:/home/barusu/ros2_ws/install/examples_rclpy_minimal_action_client:/home/barusu/ros2_ws/install/examples_rclpy_guard_conditions:/home/barusu/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /home/barusu/.local/bin/cmake --build /home/barusu/ros2_ws/build/zed_interfaces -- -j8 -l8
+[18.408s] Invoking command in '/home/barusu/ros2_ws/build/zed_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/barusu/ros2_ws/install/launch_testing_examples:/home/barusu/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/barusu/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/barusu/ros2_ws/install/examples_rclpy_minimal_service:/home/barusu/ros2_ws/install/examples_rclpy_minimal_publisher:/home/barusu/ros2_ws/install/examples_rclpy_minimal_client:/home/barusu/ros2_ws/install/examples_rclpy_minimal_action_server:/home/barusu/ros2_ws/install/examples_rclpy_minimal_action_client:/home/barusu/ros2_ws/install/examples_rclpy_guard_conditions:/home/barusu/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /home/barusu/.local/bin/cmake --install /home/barusu/ros2_ws/build/zed_interfaces
+[18.434s] -- Install configuration: "Release"
+[18.435s] -- Execute custom install script
+[18.435s] -- Symlinking: /home/barusu/ros2_ws/install/zed_interfaces/share/ament_index/resource_index/rosidl_interfaces/zed_interfaces
+[18.439s] -- Symlinking: /home/barusu/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/bounding_box2_df.h
+[18.442s] -- Symlinking: /home/barusu/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/bounding_box2_di.h
+[18.445s] -- Symlinking: /home/barusu/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/bounding_box3_d.h
+[18.447s] -- Symlinking: /home/barusu/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/depth_info_stamped.h
+[18.450s] -- Symlinking: /home/barusu/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/bounding_box2_df__functions.h
+[18.453s] -- Symlinking: /home/barusu/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/bounding_box2_df__struct.h
+[18.455s] -- Symlinking: /home/barusu/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/bounding_box2_df__type_support.h
+[18.458s] -- Symlinking: /home/barusu/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/bounding_box2_di__functions.h
+[18.460s] -- Symlinking: /home/barusu/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/bounding_box2_di__struct.h
+[18.463s] -- Symlinking: /home/barusu/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/bounding_box2_di__type_support.h
+[18.466s] -- Symlinking: /home/barusu/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/bounding_box3_d__functions.h
+[18.468s] -- Symlinking: /home/barusu/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/bounding_box3_d__struct.h
+[18.471s] -- Symlinking: /home/barusu/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/bounding_box3_d__type_support.h
+[18.474s] -- Symlinking: /home/barusu/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/depth_info_stamped__functions.h
+[18.477s] -- Symlinking: /home/barusu/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/depth_info_stamped__struct.h
+[18.479s] -- Symlinking: /home/barusu/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/depth_info_stamped__type_support.h
+[18.482s] -- Symlinking: /home/barusu/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/heartbeat__functions.h
+[18.484s] -- Symlinking: /home/barusu/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/heartbeat__struct.h
+[18.487s] -- Symlinking: /home/barusu/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/heartbeat__type_support.h
+[18.490s] -- Symlinking: /home/barusu/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/keypoint2_df__functions.h
+[18.492s] -- Symlinking: /home/barusu/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/keypoint2_df__struct.h
+[18.495s] -- Symlinking: /home/barusu/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/keypoint2_df__type_support.h
+[18.497s] -- Symlinking: /home/barusu/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/keypoint2_di__functions.h
+[18.500s] -- Symlinking: /home/barusu/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/keypoint2_di__struct.h
+[18.503s] -- Symlinking: /home/barusu/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/keypoint2_di__type_support.h
+[18.505s] -- Symlinking: /home/barusu/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/keypoint3_d__functions.h
+[18.508s] -- Symlinking: /home/barusu/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/keypoint3_d__struct.h
+[18.510s] -- Symlinking: /home/barusu/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/keypoint3_d__type_support.h
+[18.513s] -- Symlinking: /home/barusu/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/object__functions.h
+[18.515s] -- Symlinking: /home/barusu/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/object__struct.h
+[18.518s] -- Symlinking: /home/barusu/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/object__type_support.h
+[18.521s] -- Symlinking: /home/barusu/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/objects_stamped__functions.h
+[18.523s] -- Symlinking: /home/barusu/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/objects_stamped__struct.h
+[18.526s] -- Symlinking: /home/barusu/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/objects_stamped__type_support.h
+[18.528s] -- Symlinking: /home/barusu/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/plane_stamped__functions.h
+[18.531s] -- Symlinking: /home/barusu/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/plane_stamped__struct.h
+[18.534s] -- Symlinking: /home/barusu/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/plane_stamped__type_support.h
+[18.536s] -- Symlinking: /home/barusu/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/pos_track_status__functions.h
+[18.539s] -- Symlinking: /home/barusu/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/pos_track_status__struct.h
+[18.541s] -- Symlinking: /home/barusu/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/pos_track_status__type_support.h
+[18.544s] -- Symlinking: /home/barusu/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/skeleton2_d__functions.h
+[18.546s] -- Symlinking: /home/barusu/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/skeleton2_d__struct.h
+[18.549s] -- Symlinking: /home/barusu/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/skeleton2_d__type_support.h
+[18.552s] -- Symlinking: /home/barusu/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/skeleton3_d__functions.h
+[18.554s] -- Symlinking: /home/barusu/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/skeleton3_d__struct.h
+[18.557s] -- Symlinking: /home/barusu/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/skeleton3_d__type_support.h
+[18.560s] -- Symlinking: /home/barusu/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/heartbeat.h
+[18.562s] -- Symlinking: /home/barusu/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/keypoint2_df.h
+[18.565s] -- Symlinking: /home/barusu/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/keypoint2_di.h
+[18.567s] -- Symlinking: /home/barusu/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/keypoint3_d.h
+[18.570s] -- Symlinking: /home/barusu/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/object.h
+[18.573s] -- Symlinking: /home/barusu/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/objects_stamped.h
+[18.576s] -- Symlinking: /home/barusu/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/plane_stamped.h
+[18.578s] -- Symlinking: /home/barusu/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/pos_track_status.h
+[18.581s] -- Symlinking: /home/barusu/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/rosidl_generator_c__visibility_control.h
+[18.584s] -- Symlinking: /home/barusu/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/skeleton2_d.h
+[18.586s] -- Symlinking: /home/barusu/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/skeleton3_d.h
+[18.588s] -- Symlinking: /home/barusu/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/srv/detail/set_pose__functions.h
+[18.591s] -- Symlinking: /home/barusu/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/srv/detail/set_pose__struct.h
+[18.593s] -- Symlinking: /home/barusu/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/srv/detail/set_pose__type_support.h
+[18.596s] -- Symlinking: /home/barusu/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/srv/detail/set_roi__functions.h
+[18.598s] -- Symlinking: /home/barusu/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/srv/detail/set_roi__struct.h
+[18.600s] -- Symlinking: /home/barusu/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/srv/detail/set_roi__type_support.h
+[18.603s] -- Symlinking: /home/barusu/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/srv/detail/start_svo_rec__functions.h
+[18.605s] -- Symlinking: /home/barusu/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/srv/detail/start_svo_rec__struct.h
+[18.607s] -- Symlinking: /home/barusu/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/srv/detail/start_svo_rec__type_support.h
+[18.610s] -- Symlinking: /home/barusu/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/srv/set_pose.h
+[18.612s] -- Symlinking: /home/barusu/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/srv/set_roi.h
+[18.615s] -- Symlinking: /home/barusu/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/srv/start_svo_rec.h
+[18.617s] -- Symlinking: /home/barusu/ros2_ws/install/zed_interfaces/share/zed_interfaces/environment/library_path.sh
+[18.620s] -- Symlinking: /home/barusu/ros2_ws/install/zed_interfaces/share/zed_interfaces/environment/library_path.dsv
+[18.623s] -- Symlinking: /home/barusu/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/bounding_box2_df__rosidl_typesupport_fastrtps_c.h
+[18.625s] -- Symlinking: /home/barusu/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/bounding_box2_di__rosidl_typesupport_fastrtps_c.h
+[18.628s] -- Symlinking: /home/barusu/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/bounding_box3_d__rosidl_typesupport_fastrtps_c.h
+[18.630s] -- Symlinking: /home/barusu/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/depth_info_stamped__rosidl_typesupport_fastrtps_c.h
+[18.632s] -- Symlinking: /home/barusu/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/heartbeat__rosidl_typesupport_fastrtps_c.h
+[18.635s] -- Symlinking: /home/barusu/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/keypoint2_df__rosidl_typesupport_fastrtps_c.h
+[18.637s] -- Symlinking: /home/barusu/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/keypoint2_di__rosidl_typesupport_fastrtps_c.h
+[18.640s] -- Symlinking: /home/barusu/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/keypoint3_d__rosidl_typesupport_fastrtps_c.h
+[18.642s] -- Symlinking: /home/barusu/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/object__rosidl_typesupport_fastrtps_c.h
+[18.645s] -- Symlinking: /home/barusu/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/objects_stamped__rosidl_typesupport_fastrtps_c.h
+[18.647s] -- Symlinking: /home/barusu/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/plane_stamped__rosidl_typesupport_fastrtps_c.h
+[18.649s] -- Symlinking: /home/barusu/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/pos_track_status__rosidl_typesupport_fastrtps_c.h
+[18.652s] -- Symlinking: /home/barusu/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/skeleton2_d__rosidl_typesupport_fastrtps_c.h
+[18.654s] -- Symlinking: /home/barusu/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/skeleton3_d__rosidl_typesupport_fastrtps_c.h
+[18.657s] -- Symlinking: /home/barusu/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[18.659s] -- Symlinking: /home/barusu/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/srv/detail/set_pose__rosidl_typesupport_fastrtps_c.h
+[18.662s] -- Symlinking: /home/barusu/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/srv/detail/set_roi__rosidl_typesupport_fastrtps_c.h
+[18.664s] -- Symlinking: /home/barusu/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/srv/detail/start_svo_rec__rosidl_typesupport_fastrtps_c.h
+[18.668s] -- Symlinking: /home/barusu/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/bounding_box2_df.hpp
+[18.670s] -- Symlinking: /home/barusu/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/bounding_box2_di.hpp
+[18.673s] -- Symlinking: /home/barusu/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/bounding_box3_d.hpp
+[18.676s] -- Symlinking: /home/barusu/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/depth_info_stamped.hpp
+[18.678s] -- Symlinking: /home/barusu/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/bounding_box2_df__builder.hpp
+[18.680s] -- Symlinking: /home/barusu/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/bounding_box2_df__struct.hpp
+[18.683s] -- Symlinking: /home/barusu/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/bounding_box2_df__traits.hpp
+[18.685s] -- Symlinking: /home/barusu/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/bounding_box2_di__builder.hpp
+[18.688s] -- Symlinking: /home/barusu/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/bounding_box2_di__struct.hpp
+[18.690s] -- Symlinking: /home/barusu/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/bounding_box2_di__traits.hpp
+[18.692s] -- Symlinking: /home/barusu/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/bounding_box3_d__builder.hpp
+[18.695s] -- Symlinking: /home/barusu/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/bounding_box3_d__struct.hpp
+[18.697s] -- Symlinking: /home/barusu/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/bounding_box3_d__traits.hpp
+[18.700s] -- Symlinking: /home/barusu/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/depth_info_stamped__builder.hpp
+[18.702s] -- Symlinking: /home/barusu/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/depth_info_stamped__struct.hpp
+[18.704s] -- Symlinking: /home/barusu/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/depth_info_stamped__traits.hpp
+[18.707s] -- Symlinking: /home/barusu/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/heartbeat__builder.hpp
+[18.709s] -- Symlinking: /home/barusu/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/heartbeat__struct.hpp
+[18.711s] -- Symlinking: /home/barusu/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/heartbeat__traits.hpp
+[18.714s] -- Symlinking: /home/barusu/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/keypoint2_df__builder.hpp
+[18.716s] -- Symlinking: /home/barusu/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/keypoint2_df__struct.hpp
+[18.719s] -- Symlinking: /home/barusu/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/keypoint2_df__traits.hpp
+[18.721s] -- Symlinking: /home/barusu/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/keypoint2_di__builder.hpp
+[18.723s] -- Symlinking: /home/barusu/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/keypoint2_di__struct.hpp
+[18.726s] -- Symlinking: /home/barusu/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/keypoint2_di__traits.hpp
+[18.728s] -- Symlinking: /home/barusu/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/keypoint3_d__builder.hpp
+[18.730s] -- Symlinking: /home/barusu/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/keypoint3_d__struct.hpp
+[18.733s] -- Symlinking: /home/barusu/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/keypoint3_d__traits.hpp
+[18.735s] -- Symlinking: /home/barusu/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/object__builder.hpp
+[18.738s] -- Symlinking: /home/barusu/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/object__struct.hpp
+[18.740s] -- Symlinking: /home/barusu/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/object__traits.hpp
+[18.742s] -- Symlinking: /home/barusu/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/objects_stamped__builder.hpp
+[18.745s] -- Symlinking: /home/barusu/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/objects_stamped__struct.hpp
+[18.747s] -- Symlinking: /home/barusu/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/objects_stamped__traits.hpp
+[18.750s] -- Symlinking: /home/barusu/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/plane_stamped__builder.hpp
+[18.752s] -- Symlinking: /home/barusu/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/plane_stamped__struct.hpp
+[18.755s] -- Symlinking: /home/barusu/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/plane_stamped__traits.hpp
+[18.757s] -- Symlinking: /home/barusu/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/pos_track_status__builder.hpp
+[18.760s] -- Symlinking: /home/barusu/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/pos_track_status__struct.hpp
+[18.762s] -- Symlinking: /home/barusu/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/pos_track_status__traits.hpp
+[18.764s] -- Symlinking: /home/barusu/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/skeleton2_d__builder.hpp
+[18.767s] -- Symlinking: /home/barusu/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/skeleton2_d__struct.hpp
+[18.769s] -- Symlinking: /home/barusu/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/skeleton2_d__traits.hpp
+[18.772s] -- Symlinking: /home/barusu/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/skeleton3_d__builder.hpp
+[18.775s] -- Symlinking: /home/barusu/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/skeleton3_d__struct.hpp
+[18.777s] -- Symlinking: /home/barusu/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/skeleton3_d__traits.hpp
+[18.780s] -- Symlinking: /home/barusu/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/heartbeat.hpp
+[18.782s] -- Symlinking: /home/barusu/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/keypoint2_df.hpp
+[18.785s] -- Symlinking: /home/barusu/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/keypoint2_di.hpp
+[18.787s] -- Symlinking: /home/barusu/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/keypoint3_d.hpp
+[18.789s] -- Symlinking: /home/barusu/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/object.hpp
+[18.792s] -- Symlinking: /home/barusu/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/objects_stamped.hpp
+[18.794s] -- Symlinking: /home/barusu/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/plane_stamped.hpp
+[18.797s] -- Symlinking: /home/barusu/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/pos_track_status.hpp
+[18.799s] -- Symlinking: /home/barusu/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/skeleton2_d.hpp
+[18.802s] -- Symlinking: /home/barusu/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/skeleton3_d.hpp
+[18.804s] -- Symlinking: /home/barusu/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/srv/detail/set_pose__builder.hpp
+[18.806s] -- Symlinking: /home/barusu/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/srv/detail/set_pose__struct.hpp
+[18.809s] -- Symlinking: /home/barusu/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/srv/detail/set_pose__traits.hpp
+[18.811s] -- Symlinking: /home/barusu/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/srv/detail/set_roi__builder.hpp
+[18.814s] -- Symlinking: /home/barusu/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/srv/detail/set_roi__struct.hpp
+[18.816s] -- Symlinking: /home/barusu/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/srv/detail/set_roi__traits.hpp
+[18.818s] -- Symlinking: /home/barusu/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/srv/detail/start_svo_rec__builder.hpp
+[18.821s] -- Symlinking: /home/barusu/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/srv/detail/start_svo_rec__struct.hpp
+[18.823s] -- Symlinking: /home/barusu/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/srv/detail/start_svo_rec__traits.hpp
+[18.826s] -- Symlinking: /home/barusu/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/srv/set_pose.hpp
+[18.828s] -- Symlinking: /home/barusu/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/srv/set_roi.hpp
+[18.830s] -- Symlinking: /home/barusu/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/srv/start_svo_rec.hpp
+[18.834s] -- Symlinking: /home/barusu/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/bounding_box2_df__rosidl_typesupport_fastrtps_cpp.hpp
+[18.836s] -- Symlinking: /home/barusu/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/bounding_box2_di__rosidl_typesupport_fastrtps_cpp.hpp
+[18.839s] -- Symlinking: /home/barusu/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/bounding_box3_d__rosidl_typesupport_fastrtps_cpp.hpp
+[18.841s] -- Symlinking: /home/barusu/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/depth_info_stamped__rosidl_typesupport_fastrtps_cpp.hpp
+[18.844s] -- Symlinking: /home/barusu/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/heartbeat__rosidl_typesupport_fastrtps_cpp.hpp
+[18.846s] -- Symlinking: /home/barusu/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/keypoint2_df__rosidl_typesupport_fastrtps_cpp.hpp
+[18.848s] -- Symlinking: /home/barusu/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/keypoint2_di__rosidl_typesupport_fastrtps_cpp.hpp
+[18.851s] -- Symlinking: /home/barusu/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/keypoint3_d__rosidl_typesupport_fastrtps_cpp.hpp
+[18.853s] -- Symlinking: /home/barusu/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/object__rosidl_typesupport_fastrtps_cpp.hpp
+[18.856s] -- Symlinking: /home/barusu/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/objects_stamped__rosidl_typesupport_fastrtps_cpp.hpp
+[18.858s] -- Symlinking: /home/barusu/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/plane_stamped__rosidl_typesupport_fastrtps_cpp.hpp
+[18.861s] -- Symlinking: /home/barusu/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/pos_track_status__rosidl_typesupport_fastrtps_cpp.hpp
+[18.863s] -- Symlinking: /home/barusu/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/skeleton2_d__rosidl_typesupport_fastrtps_cpp.hpp
+[18.866s] -- Symlinking: /home/barusu/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/skeleton3_d__rosidl_typesupport_fastrtps_cpp.hpp
+[18.868s] -- Symlinking: /home/barusu/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[18.871s] -- Symlinking: /home/barusu/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/srv/detail/set_pose__rosidl_typesupport_fastrtps_cpp.hpp
+[18.874s] -- Symlinking: /home/barusu/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/srv/detail/set_roi__rosidl_typesupport_fastrtps_cpp.hpp
+[18.876s] -- Symlinking: /home/barusu/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/srv/detail/start_svo_rec__rosidl_typesupport_fastrtps_cpp.hpp
+[18.879s] -- Symlinking: /home/barusu/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/bounding_box2_df__rosidl_typesupport_introspection_c.h
+[18.881s] -- Symlinking: /home/barusu/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/bounding_box2_di__rosidl_typesupport_introspection_c.h
+[18.884s] -- Symlinking: /home/barusu/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/bounding_box3_d__rosidl_typesupport_introspection_c.h
+[18.886s] -- Symlinking: /home/barusu/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/depth_info_stamped__rosidl_typesupport_introspection_c.h
+[18.889s] -- Symlinking: /home/barusu/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/heartbeat__rosidl_typesupport_introspection_c.h
+[18.891s] -- Symlinking: /home/barusu/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/keypoint2_df__rosidl_typesupport_introspection_c.h
+[18.893s] -- Symlinking: /home/barusu/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/keypoint2_di__rosidl_typesupport_introspection_c.h
+[18.896s] -- Symlinking: /home/barusu/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/keypoint3_d__rosidl_typesupport_introspection_c.h
+[18.898s] -- Symlinking: /home/barusu/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/object__rosidl_typesupport_introspection_c.h
+[18.901s] -- Symlinking: /home/barusu/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/objects_stamped__rosidl_typesupport_introspection_c.h
+[18.903s] -- Symlinking: /home/barusu/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/plane_stamped__rosidl_typesupport_introspection_c.h
+[18.905s] -- Symlinking: /home/barusu/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/pos_track_status__rosidl_typesupport_introspection_c.h
+[18.908s] -- Symlinking: /home/barusu/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/skeleton2_d__rosidl_typesupport_introspection_c.h
+[18.910s] -- Symlinking: /home/barusu/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/skeleton3_d__rosidl_typesupport_introspection_c.h
+[18.912s] -- Symlinking: /home/barusu/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[18.915s] -- Symlinking: /home/barusu/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/srv/detail/set_pose__rosidl_typesupport_introspection_c.h
+[18.917s] -- Symlinking: /home/barusu/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/srv/detail/set_roi__rosidl_typesupport_introspection_c.h
+[18.919s] -- Symlinking: /home/barusu/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/srv/detail/start_svo_rec__rosidl_typesupport_introspection_c.h
+[18.922s] -- Symlinking: /home/barusu/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/bounding_box2_df__rosidl_typesupport_introspection_cpp.hpp
+[18.925s] -- Symlinking: /home/barusu/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/bounding_box2_di__rosidl_typesupport_introspection_cpp.hpp
+[18.927s] -- Symlinking: /home/barusu/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/bounding_box3_d__rosidl_typesupport_introspection_cpp.hpp
+[18.930s] -- Symlinking: /home/barusu/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/depth_info_stamped__rosidl_typesupport_introspection_cpp.hpp
+[18.932s] -- Symlinking: /home/barusu/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/heartbeat__rosidl_typesupport_introspection_cpp.hpp
+[18.934s] -- Symlinking: /home/barusu/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/keypoint2_df__rosidl_typesupport_introspection_cpp.hpp
+[18.937s] -- Symlinking: /home/barusu/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/keypoint2_di__rosidl_typesupport_introspection_cpp.hpp
+[18.939s] -- Symlinking: /home/barusu/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/keypoint3_d__rosidl_typesupport_introspection_cpp.hpp
+[18.941s] -- Symlinking: /home/barusu/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/object__rosidl_typesupport_introspection_cpp.hpp
+[18.944s] -- Symlinking: /home/barusu/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/objects_stamped__rosidl_typesupport_introspection_cpp.hpp
+[18.946s] -- Symlinking: /home/barusu/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/plane_stamped__rosidl_typesupport_introspection_cpp.hpp
+[18.949s] -- Symlinking: /home/barusu/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/pos_track_status__rosidl_typesupport_introspection_cpp.hpp
+[18.951s] -- Symlinking: /home/barusu/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/skeleton2_d__rosidl_typesupport_introspection_cpp.hpp
+[18.954s] -- Symlinking: /home/barusu/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/skeleton3_d__rosidl_typesupport_introspection_cpp.hpp
+[18.956s] -- Symlinking: /home/barusu/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/srv/detail/set_pose__rosidl_typesupport_introspection_cpp.hpp
+[18.958s] -- Symlinking: /home/barusu/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/srv/detail/set_roi__rosidl_typesupport_introspection_cpp.hpp
+[18.961s] -- Symlinking: /home/barusu/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/srv/detail/start_svo_rec__rosidl_typesupport_introspection_cpp.hpp
+[18.963s] -- Symlinking: /home/barusu/ros2_ws/install/zed_interfaces/share/zed_interfaces/environment/pythonpath.sh
+[18.966s] -- Symlinking: /home/barusu/ros2_ws/install/zed_interfaces/share/zed_interfaces/environment/pythonpath.dsv
+[18.969s] -- Symlinking: /home/barusu/ros2_ws/install/zed_interfaces/local/lib/python3.10/dist-packages/zed_interfaces-4.0.0-py3.10.egg-info/PKG-INFO
+[18.971s] -- Symlinking: /home/barusu/ros2_ws/install/zed_interfaces/local/lib/python3.10/dist-packages/zed_interfaces-4.0.0-py3.10.egg-info/SOURCES.txt
+[18.974s] -- Symlinking: /home/barusu/ros2_ws/install/zed_interfaces/local/lib/python3.10/dist-packages/zed_interfaces-4.0.0-py3.10.egg-info/dependency_links.txt
+[18.976s] -- Symlinking: /home/barusu/ros2_ws/install/zed_interfaces/local/lib/python3.10/dist-packages/zed_interfaces-4.0.0-py3.10.egg-info/top_level.txt
+[18.980s] -- Symlinking: /home/barusu/ros2_ws/install/zed_interfaces/local/lib/python3.10/dist-packages/zed_interfaces/__init__.py
+[18.982s] -- Symlinking: /home/barusu/ros2_ws/install/zed_interfaces/local/lib/python3.10/dist-packages/zed_interfaces/_zed_interfaces_s.ep.rosidl_typesupport_c.c
+[18.985s] -- Symlinking: /home/barusu/ros2_ws/install/zed_interfaces/local/lib/python3.10/dist-packages/zed_interfaces/_zed_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[18.987s] -- Symlinking: /home/barusu/ros2_ws/install/zed_interfaces/local/lib/python3.10/dist-packages/zed_interfaces/_zed_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[18.990s] -- Symlinking: /home/barusu/ros2_ws/install/zed_interfaces/local/lib/python3.10/dist-packages/zed_interfaces/libzed_interfaces__rosidl_generator_py.so
+[18.992s] -- Symlinking: /home/barusu/ros2_ws/install/zed_interfaces/local/lib/python3.10/dist-packages/zed_interfaces/msg/__init__.py
+[18.994s] -- Symlinking: /home/barusu/ros2_ws/install/zed_interfaces/local/lib/python3.10/dist-packages/zed_interfaces/msg/_bounding_box2_df.py
+[18.997s] -- Symlinking: /home/barusu/ros2_ws/install/zed_interfaces/local/lib/python3.10/dist-packages/zed_interfaces/msg/_bounding_box2_df_s.c
+[18.999s] -- Symlinking: /home/barusu/ros2_ws/install/zed_interfaces/local/lib/python3.10/dist-packages/zed_interfaces/msg/_bounding_box2_di.py
+[19.002s] -- Symlinking: /home/barusu/ros2_ws/install/zed_interfaces/local/lib/python3.10/dist-packages/zed_interfaces/msg/_bounding_box2_di_s.c
+[19.004s] -- Symlinking: /home/barusu/ros2_ws/install/zed_interfaces/local/lib/python3.10/dist-packages/zed_interfaces/msg/_bounding_box3_d.py
+[19.006s] -- Symlinking: /home/barusu/ros2_ws/install/zed_interfaces/local/lib/python3.10/dist-packages/zed_interfaces/msg/_bounding_box3_d_s.c
+[19.009s] -- Symlinking: /home/barusu/ros2_ws/install/zed_interfaces/local/lib/python3.10/dist-packages/zed_interfaces/msg/_depth_info_stamped.py
+[19.011s] -- Symlinking: /home/barusu/ros2_ws/install/zed_interfaces/local/lib/python3.10/dist-packages/zed_interfaces/msg/_depth_info_stamped_s.c
+[19.013s] -- Symlinking: /home/barusu/ros2_ws/install/zed_interfaces/local/lib/python3.10/dist-packages/zed_interfaces/msg/_heartbeat.py
+[19.016s] -- Symlinking: /home/barusu/ros2_ws/install/zed_interfaces/local/lib/python3.10/dist-packages/zed_interfaces/msg/_heartbeat_s.c
+[19.018s] -- Symlinking: /home/barusu/ros2_ws/install/zed_interfaces/local/lib/python3.10/dist-packages/zed_interfaces/msg/_keypoint2_df.py
+[19.021s] -- Symlinking: /home/barusu/ros2_ws/install/zed_interfaces/local/lib/python3.10/dist-packages/zed_interfaces/msg/_keypoint2_df_s.c
+[19.023s] -- Symlinking: /home/barusu/ros2_ws/install/zed_interfaces/local/lib/python3.10/dist-packages/zed_interfaces/msg/_keypoint2_di.py
+[19.025s] -- Symlinking: /home/barusu/ros2_ws/install/zed_interfaces/local/lib/python3.10/dist-packages/zed_interfaces/msg/_keypoint2_di_s.c
+[19.028s] -- Symlinking: /home/barusu/ros2_ws/install/zed_interfaces/local/lib/python3.10/dist-packages/zed_interfaces/msg/_keypoint3_d.py
+[19.030s] -- Symlinking: /home/barusu/ros2_ws/install/zed_interfaces/local/lib/python3.10/dist-packages/zed_interfaces/msg/_keypoint3_d_s.c
+[19.032s] -- Symlinking: /home/barusu/ros2_ws/install/zed_interfaces/local/lib/python3.10/dist-packages/zed_interfaces/msg/_object.py
+[19.035s] -- Symlinking: /home/barusu/ros2_ws/install/zed_interfaces/local/lib/python3.10/dist-packages/zed_interfaces/msg/_object_s.c
+[19.037s] -- Symlinking: /home/barusu/ros2_ws/install/zed_interfaces/local/lib/python3.10/dist-packages/zed_interfaces/msg/_objects_stamped.py
+[19.040s] -- Symlinking: /home/barusu/ros2_ws/install/zed_interfaces/local/lib/python3.10/dist-packages/zed_interfaces/msg/_objects_stamped_s.c
+[19.042s] -- Symlinking: /home/barusu/ros2_ws/install/zed_interfaces/local/lib/python3.10/dist-packages/zed_interfaces/msg/_plane_stamped.py
+[19.044s] -- Symlinking: /home/barusu/ros2_ws/install/zed_interfaces/local/lib/python3.10/dist-packages/zed_interfaces/msg/_plane_stamped_s.c
+[19.047s] -- Symlinking: /home/barusu/ros2_ws/install/zed_interfaces/local/lib/python3.10/dist-packages/zed_interfaces/msg/_pos_track_status.py
+[19.049s] -- Symlinking: /home/barusu/ros2_ws/install/zed_interfaces/local/lib/python3.10/dist-packages/zed_interfaces/msg/_pos_track_status_s.c
+[19.052s] -- Symlinking: /home/barusu/ros2_ws/install/zed_interfaces/local/lib/python3.10/dist-packages/zed_interfaces/msg/_skeleton2_d.py
+[19.054s] -- Symlinking: /home/barusu/ros2_ws/install/zed_interfaces/local/lib/python3.10/dist-packages/zed_interfaces/msg/_skeleton2_d_s.c
+[19.056s] -- Symlinking: /home/barusu/ros2_ws/install/zed_interfaces/local/lib/python3.10/dist-packages/zed_interfaces/msg/_skeleton3_d.py
+[19.059s] -- Symlinking: /home/barusu/ros2_ws/install/zed_interfaces/local/lib/python3.10/dist-packages/zed_interfaces/msg/_skeleton3_d_s.c
+[19.061s] -- Symlinking: /home/barusu/ros2_ws/install/zed_interfaces/local/lib/python3.10/dist-packages/zed_interfaces/srv/__init__.py
+[19.064s] -- Symlinking: /home/barusu/ros2_ws/install/zed_interfaces/local/lib/python3.10/dist-packages/zed_interfaces/srv/_set_pose.py
+[19.066s] -- Symlinking: /home/barusu/ros2_ws/install/zed_interfaces/local/lib/python3.10/dist-packages/zed_interfaces/srv/_set_pose_s.c
+[19.069s] -- Symlinking: /home/barusu/ros2_ws/install/zed_interfaces/local/lib/python3.10/dist-packages/zed_interfaces/srv/_set_roi.py
+[19.071s] -- Symlinking: /home/barusu/ros2_ws/install/zed_interfaces/local/lib/python3.10/dist-packages/zed_interfaces/srv/_set_roi_s.c
+[19.074s] -- Symlinking: /home/barusu/ros2_ws/install/zed_interfaces/local/lib/python3.10/dist-packages/zed_interfaces/srv/_start_svo_rec.py
+[19.076s] -- Symlinking: /home/barusu/ros2_ws/install/zed_interfaces/local/lib/python3.10/dist-packages/zed_interfaces/srv/_start_svo_rec_s.c
+[19.079s] -- Symlinking: /home/barusu/ros2_ws/install/zed_interfaces/local/lib/python3.10/dist-packages/zed_interfaces/zed_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[19.082s] -- Symlinking: /home/barusu/ros2_ws/install/zed_interfaces/local/lib/python3.10/dist-packages/zed_interfaces/zed_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[19.084s] -- Symlinking: /home/barusu/ros2_ws/install/zed_interfaces/local/lib/python3.10/dist-packages/zed_interfaces/zed_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[19.087s] -- Up-to-date symlink: /home/barusu/ros2_ws/install/zed_interfaces/local/lib/python3.10/dist-packages/zed_interfaces/zed_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[19.087s] -- Up-to-date symlink: /home/barusu/ros2_ws/install/zed_interfaces/local/lib/python3.10/dist-packages/zed_interfaces/zed_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[19.087s] -- Up-to-date symlink: /home/barusu/ros2_ws/install/zed_interfaces/local/lib/python3.10/dist-packages/zed_interfaces/zed_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[19.087s] -- Symlinking: /home/barusu/ros2_ws/install/zed_interfaces/share/zed_interfaces/msg/Object.idl
+[19.090s] -- Symlinking: /home/barusu/ros2_ws/install/zed_interfaces/share/zed_interfaces/msg/ObjectsStamped.idl
+[19.092s] -- Symlinking: /home/barusu/ros2_ws/install/zed_interfaces/share/zed_interfaces/msg/Keypoint2Di.idl
+[19.095s] -- Symlinking: /home/barusu/ros2_ws/install/zed_interfaces/share/zed_interfaces/msg/Keypoint2Df.idl
+[19.098s] -- Symlinking: /home/barusu/ros2_ws/install/zed_interfaces/share/zed_interfaces/msg/Keypoint3D.idl
+[19.100s] -- Symlinking: /home/barusu/ros2_ws/install/zed_interfaces/share/zed_interfaces/msg/BoundingBox2Di.idl
+[19.102s] -- Symlinking: /home/barusu/ros2_ws/install/zed_interfaces/share/zed_interfaces/msg/BoundingBox2Df.idl
+[19.105s] -- Symlinking: /home/barusu/ros2_ws/install/zed_interfaces/share/zed_interfaces/msg/BoundingBox3D.idl
+[19.107s] -- Symlinking: /home/barusu/ros2_ws/install/zed_interfaces/share/zed_interfaces/msg/Skeleton2D.idl
+[19.110s] -- Symlinking: /home/barusu/ros2_ws/install/zed_interfaces/share/zed_interfaces/msg/Skeleton3D.idl
+[19.112s] -- Symlinking: /home/barusu/ros2_ws/install/zed_interfaces/share/zed_interfaces/msg/DepthInfoStamped.idl
+[19.115s] -- Symlinking: /home/barusu/ros2_ws/install/zed_interfaces/share/zed_interfaces/msg/PlaneStamped.idl
+[19.117s] -- Symlinking: /home/barusu/ros2_ws/install/zed_interfaces/share/zed_interfaces/msg/PosTrackStatus.idl
+[19.120s] -- Symlinking: /home/barusu/ros2_ws/install/zed_interfaces/share/zed_interfaces/msg/Heartbeat.idl
+[19.122s] -- Symlinking: /home/barusu/ros2_ws/install/zed_interfaces/share/zed_interfaces/srv/SetPose.idl
+[19.124s] -- Symlinking: /home/barusu/ros2_ws/install/zed_interfaces/share/zed_interfaces/srv/StartSvoRec.idl
+[19.127s] -- Symlinking: /home/barusu/ros2_ws/install/zed_interfaces/share/zed_interfaces/srv/SetROI.idl
+[19.129s] -- Symlinking: /home/barusu/ros2_ws/install/zed_interfaces/share/zed_interfaces/msg/Object.msg
+[19.132s] -- Symlinking: /home/barusu/ros2_ws/install/zed_interfaces/share/zed_interfaces/msg/ObjectsStamped.msg
+[19.134s] -- Symlinking: /home/barusu/ros2_ws/install/zed_interfaces/share/zed_interfaces/msg/Keypoint2Di.msg
+[19.137s] -- Symlinking: /home/barusu/ros2_ws/install/zed_interfaces/share/zed_interfaces/msg/Keypoint2Df.msg
+[19.139s] -- Symlinking: /home/barusu/ros2_ws/install/zed_interfaces/share/zed_interfaces/msg/Keypoint3D.msg
+[19.142s] -- Symlinking: /home/barusu/ros2_ws/install/zed_interfaces/share/zed_interfaces/msg/BoundingBox2Di.msg
+[19.144s] -- Symlinking: /home/barusu/ros2_ws/install/zed_interfaces/share/zed_interfaces/msg/BoundingBox2Df.msg
+[19.147s] -- Symlinking: /home/barusu/ros2_ws/install/zed_interfaces/share/zed_interfaces/msg/BoundingBox3D.msg
+[19.149s] -- Symlinking: /home/barusu/ros2_ws/install/zed_interfaces/share/zed_interfaces/msg/Skeleton2D.msg
+[19.152s] -- Symlinking: /home/barusu/ros2_ws/install/zed_interfaces/share/zed_interfaces/msg/Skeleton3D.msg
+[19.154s] -- Symlinking: /home/barusu/ros2_ws/install/zed_interfaces/share/zed_interfaces/msg/DepthInfoStamped.msg
+[19.157s] -- Symlinking: /home/barusu/ros2_ws/install/zed_interfaces/share/zed_interfaces/msg/PlaneStamped.msg
+[19.159s] -- Symlinking: /home/barusu/ros2_ws/install/zed_interfaces/share/zed_interfaces/msg/PosTrackStatus.msg
+[19.162s] -- Symlinking: /home/barusu/ros2_ws/install/zed_interfaces/share/zed_interfaces/msg/Heartbeat.msg
+[19.164s] -- Symlinking: /home/barusu/ros2_ws/install/zed_interfaces/share/zed_interfaces/srv/SetPose.srv
+[19.167s] -- Symlinking: /home/barusu/ros2_ws/install/zed_interfaces/share/zed_interfaces/srv/SetPose_Request.msg
+[19.170s] -- Symlinking: /home/barusu/ros2_ws/install/zed_interfaces/share/zed_interfaces/srv/SetPose_Response.msg
+[19.173s] -- Symlinking: /home/barusu/ros2_ws/install/zed_interfaces/share/zed_interfaces/srv/StartSvoRec.srv
+[19.175s] -- Symlinking: /home/barusu/ros2_ws/install/zed_interfaces/share/zed_interfaces/srv/StartSvoRec_Request.msg
+[19.178s] -- Symlinking: /home/barusu/ros2_ws/install/zed_interfaces/share/zed_interfaces/srv/StartSvoRec_Response.msg
+[19.180s] -- Symlinking: /home/barusu/ros2_ws/install/zed_interfaces/share/zed_interfaces/srv/SetROI.srv
+[19.183s] -- Symlinking: /home/barusu/ros2_ws/install/zed_interfaces/share/zed_interfaces/srv/SetROI_Request.msg
+[19.185s] -- Symlinking: /home/barusu/ros2_ws/install/zed_interfaces/share/zed_interfaces/srv/SetROI_Response.msg
+[19.188s] -- Symlinking: /home/barusu/ros2_ws/install/zed_interfaces/share/zed_interfaces/meshes/zed.stl
+[19.191s] -- Symlinking: /home/barusu/ros2_ws/install/zed_interfaces/share/zed_interfaces/meshes/zed2.stl
+[19.193s] -- Symlinking: /home/barusu/ros2_ws/install/zed_interfaces/share/zed_interfaces/meshes/zed2i.stl
+[19.195s] -- Symlinking: /home/barusu/ros2_ws/install/zed_interfaces/share/zed_interfaces/meshes/zedm.stl
+[19.198s] -- Symlinking: /home/barusu/ros2_ws/install/zed_interfaces/share/zed_interfaces/meshes/zedx.stl
+[19.200s] -- Symlinking: /home/barusu/ros2_ws/install/zed_interfaces/share/zed_interfaces/meshes/zedxm.stl
+[19.203s] -- Symlinking: /home/barusu/ros2_ws/install/zed_interfaces/share/ament_index/resource_index/package_run_dependencies/zed_interfaces
+[19.205s] -- Symlinking: /home/barusu/ros2_ws/install/zed_interfaces/share/ament_index/resource_index/parent_prefix_path/zed_interfaces
+[19.208s] -- Symlinking: /home/barusu/ros2_ws/install/zed_interfaces/share/zed_interfaces/environment/ament_prefix_path.sh
+[19.210s] -- Symlinking: /home/barusu/ros2_ws/install/zed_interfaces/share/zed_interfaces/environment/ament_prefix_path.dsv
+[19.213s] -- Symlinking: /home/barusu/ros2_ws/install/zed_interfaces/share/zed_interfaces/environment/path.sh
+[19.215s] -- Symlinking: /home/barusu/ros2_ws/install/zed_interfaces/share/zed_interfaces/environment/path.dsv
+[19.218s] -- Symlinking: /home/barusu/ros2_ws/install/zed_interfaces/share/zed_interfaces/local_setup.bash
+[19.220s] -- Symlinking: /home/barusu/ros2_ws/install/zed_interfaces/share/zed_interfaces/local_setup.sh
+[19.222s] -- Symlinking: /home/barusu/ros2_ws/install/zed_interfaces/share/zed_interfaces/local_setup.zsh
+[19.225s] -- Symlinking: /home/barusu/ros2_ws/install/zed_interfaces/share/zed_interfaces/local_setup.dsv
+[19.227s] -- Symlinking: /home/barusu/ros2_ws/install/zed_interfaces/share/zed_interfaces/package.dsv
+[19.230s] -- Symlinking: /home/barusu/ros2_ws/install/zed_interfaces/share/ament_index/resource_index/packages/zed_interfaces
+[19.232s] -- Symlinking: /home/barusu/ros2_ws/install/zed_interfaces/share/zed_interfaces/cmake/rosidl_cmake-extras.cmake
+[19.235s] -- Symlinking: /home/barusu/ros2_ws/install/zed_interfaces/share/zed_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[19.237s] -- Symlinking: /home/barusu/ros2_ws/install/zed_interfaces/share/zed_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[19.240s] -- Symlinking: /home/barusu/ros2_ws/install/zed_interfaces/share/zed_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[19.242s] -- Symlinking: /home/barusu/ros2_ws/install/zed_interfaces/share/zed_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[19.245s] -- Symlinking: /home/barusu/ros2_ws/install/zed_interfaces/share/zed_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[19.247s] -- Symlinking: /home/barusu/ros2_ws/install/zed_interfaces/share/zed_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[19.250s] -- Symlinking: /home/barusu/ros2_ws/install/zed_interfaces/share/zed_interfaces/cmake/zed_interfacesConfig.cmake
+[19.252s] -- Symlinking: /home/barusu/ros2_ws/install/zed_interfaces/share/zed_interfaces/cmake/zed_interfacesConfig-version.cmake
+[19.255s] -- Symlinking: /home/barusu/ros2_ws/install/zed_interfaces/share/zed_interfaces/package.xml
+[19.257s] -- Installing: /home/barusu/ros2_ws/install/zed_interfaces/lib/libzed_interfaces__rosidl_generator_c.so
+[19.258s] -- Set runtime path of "/home/barusu/ros2_ws/install/zed_interfaces/lib/libzed_interfaces__rosidl_generator_c.so" to ""
+[19.258s] -- Installing: /home/barusu/ros2_ws/install/zed_interfaces/lib/libzed_interfaces__rosidl_typesupport_fastrtps_c.so
+[19.259s] -- Set runtime path of "/home/barusu/ros2_ws/install/zed_interfaces/lib/libzed_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[19.259s] -- Installing: /home/barusu/ros2_ws/install/zed_interfaces/lib/libzed_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[19.259s] -- Set runtime path of "/home/barusu/ros2_ws/install/zed_interfaces/lib/libzed_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[19.259s] -- Installing: /home/barusu/ros2_ws/install/zed_interfaces/lib/libzed_interfaces__rosidl_typesupport_introspection_c.so
+[19.260s] -- Set runtime path of "/home/barusu/ros2_ws/install/zed_interfaces/lib/libzed_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[19.260s] -- Installing: /home/barusu/ros2_ws/install/zed_interfaces/lib/libzed_interfaces__rosidl_typesupport_c.so
+[19.260s] -- Set runtime path of "/home/barusu/ros2_ws/install/zed_interfaces/lib/libzed_interfaces__rosidl_typesupport_c.so" to ""
+[19.261s] -- Installing: /home/barusu/ros2_ws/install/zed_interfaces/lib/libzed_interfaces__rosidl_typesupport_introspection_cpp.so
+[19.261s] -- Set runtime path of "/home/barusu/ros2_ws/install/zed_interfaces/lib/libzed_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[19.261s] -- Installing: /home/barusu/ros2_ws/install/zed_interfaces/lib/libzed_interfaces__rosidl_typesupport_cpp.so
+[19.262s] -- Set runtime path of "/home/barusu/ros2_ws/install/zed_interfaces/lib/libzed_interfaces__rosidl_typesupport_cpp.so" to ""
+[19.310s] Listing '/home/barusu/ros2_ws/install/zed_interfaces/local/lib/python3.10/dist-packages/zed_interfaces'...
+[19.310s] Compiling '/home/barusu/ros2_ws/install/zed_interfaces/local/lib/python3.10/dist-packages/zed_interfaces/__init__.py'...
+[19.310s] Listing '/home/barusu/ros2_ws/install/zed_interfaces/local/lib/python3.10/dist-packages/zed_interfaces/msg'...
+[19.310s] Compiling '/home/barusu/ros2_ws/install/zed_interfaces/local/lib/python3.10/dist-packages/zed_interfaces/msg/__init__.py'...
+[19.310s] Compiling '/home/barusu/ros2_ws/install/zed_interfaces/local/lib/python3.10/dist-packages/zed_interfaces/msg/_bounding_box2_df.py'...
+[19.310s] Compiling '/home/barusu/ros2_ws/install/zed_interfaces/local/lib/python3.10/dist-packages/zed_interfaces/msg/_bounding_box2_di.py'...
+[19.310s] Compiling '/home/barusu/ros2_ws/install/zed_interfaces/local/lib/python3.10/dist-packages/zed_interfaces/msg/_bounding_box3_d.py'...
+[19.310s] Compiling '/home/barusu/ros2_ws/install/zed_interfaces/local/lib/python3.10/dist-packages/zed_interfaces/msg/_depth_info_stamped.py'...
+[19.311s] Compiling '/home/barusu/ros2_ws/install/zed_interfaces/local/lib/python3.10/dist-packages/zed_interfaces/msg/_heartbeat.py'...
+[19.311s] Compiling '/home/barusu/ros2_ws/install/zed_interfaces/local/lib/python3.10/dist-packages/zed_interfaces/msg/_keypoint2_df.py'...
+[19.311s] Compiling '/home/barusu/ros2_ws/install/zed_interfaces/local/lib/python3.10/dist-packages/zed_interfaces/msg/_keypoint2_di.py'...
+[19.311s] Compiling '/home/barusu/ros2_ws/install/zed_interfaces/local/lib/python3.10/dist-packages/zed_interfaces/msg/_keypoint3_d.py'...
+[19.311s] Compiling '/home/barusu/ros2_ws/install/zed_interfaces/local/lib/python3.10/dist-packages/zed_interfaces/msg/_object.py'...
+[19.311s] Compiling '/home/barusu/ros2_ws/install/zed_interfaces/local/lib/python3.10/dist-packages/zed_interfaces/msg/_objects_stamped.py'...
+[19.311s] Compiling '/home/barusu/ros2_ws/install/zed_interfaces/local/lib/python3.10/dist-packages/zed_interfaces/msg/_plane_stamped.py'...
+[19.311s] Compiling '/home/barusu/ros2_ws/install/zed_interfaces/local/lib/python3.10/dist-packages/zed_interfaces/msg/_pos_track_status.py'...
+[19.311s] Compiling '/home/barusu/ros2_ws/install/zed_interfaces/local/lib/python3.10/dist-packages/zed_interfaces/msg/_skeleton2_d.py'...
+[19.311s] Compiling '/home/barusu/ros2_ws/install/zed_interfaces/local/lib/python3.10/dist-packages/zed_interfaces/msg/_skeleton3_d.py'...
+[19.311s] Listing '/home/barusu/ros2_ws/install/zed_interfaces/local/lib/python3.10/dist-packages/zed_interfaces/srv'...
+[19.311s] Compiling '/home/barusu/ros2_ws/install/zed_interfaces/local/lib/python3.10/dist-packages/zed_interfaces/srv/__init__.py'...
+[19.311s] Compiling '/home/barusu/ros2_ws/install/zed_interfaces/local/lib/python3.10/dist-packages/zed_interfaces/srv/_set_pose.py'...
+[19.311s] Compiling '/home/barusu/ros2_ws/install/zed_interfaces/local/lib/python3.10/dist-packages/zed_interfaces/srv/_set_roi.py'...
+[19.311s] Compiling '/home/barusu/ros2_ws/install/zed_interfaces/local/lib/python3.10/dist-packages/zed_interfaces/srv/_start_svo_rec.py'...
+[19.315s] -- Installing: /home/barusu/ros2_ws/install/zed_interfaces/lib/libzed_interfaces__rosidl_generator_py.so
+[19.315s] -- Set runtime path of "/home/barusu/ros2_ws/install/zed_interfaces/lib/libzed_interfaces__rosidl_generator_py.so" to ""
+[19.315s] -- Installing: /home/barusu/ros2_ws/install/zed_interfaces/share/zed_interfaces/cmake/export_zed_interfaces__rosidl_generator_cExport.cmake
+[19.316s] -- Installing: /home/barusu/ros2_ws/install/zed_interfaces/share/zed_interfaces/cmake/export_zed_interfaces__rosidl_generator_cExport-release.cmake
+[19.316s] -- Installing: /home/barusu/ros2_ws/install/zed_interfaces/share/zed_interfaces/cmake/export_zed_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[19.316s] -- Installing: /home/barusu/ros2_ws/install/zed_interfaces/share/zed_interfaces/cmake/export_zed_interfaces__rosidl_typesupport_fastrtps_cExport-release.cmake
+[19.316s] -- Installing: /home/barusu/ros2_ws/install/zed_interfaces/share/zed_interfaces/cmake/export_zed_interfaces__rosidl_generator_cppExport.cmake
+[19.317s] -- Installing: /home/barusu/ros2_ws/install/zed_interfaces/share/zed_interfaces/cmake/export_zed_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[19.317s] -- Installing: /home/barusu/ros2_ws/install/zed_interfaces/share/zed_interfaces/cmake/export_zed_interfaces__rosidl_typesupport_fastrtps_cppExport-release.cmake
+[19.317s] -- Installing: /home/barusu/ros2_ws/install/zed_interfaces/share/zed_interfaces/cmake/zed_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[19.317s] -- Installing: /home/barusu/ros2_ws/install/zed_interfaces/share/zed_interfaces/cmake/zed_interfaces__rosidl_typesupport_introspection_cExport-release.cmake
+[19.318s] -- Installing: /home/barusu/ros2_ws/install/zed_interfaces/share/zed_interfaces/cmake/zed_interfaces__rosidl_typesupport_cExport.cmake
+[19.318s] -- Installing: /home/barusu/ros2_ws/install/zed_interfaces/share/zed_interfaces/cmake/zed_interfaces__rosidl_typesupport_cExport-release.cmake
+[19.318s] -- Installing: /home/barusu/ros2_ws/install/zed_interfaces/share/zed_interfaces/cmake/zed_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[19.318s] -- Installing: /home/barusu/ros2_ws/install/zed_interfaces/share/zed_interfaces/cmake/zed_interfaces__rosidl_typesupport_introspection_cppExport-release.cmake
+[19.319s] -- Installing: /home/barusu/ros2_ws/install/zed_interfaces/share/zed_interfaces/cmake/zed_interfaces__rosidl_typesupport_cppExport.cmake
+[19.319s] -- Installing: /home/barusu/ros2_ws/install/zed_interfaces/share/zed_interfaces/cmake/zed_interfaces__rosidl_typesupport_cppExport-release.cmake
+[19.319s] -- Installing: /home/barusu/ros2_ws/install/zed_interfaces/share/zed_interfaces/cmake/export_zed_interfaces__rosidl_generator_pyExport.cmake
+[19.319s] -- Installing: /home/barusu/ros2_ws/install/zed_interfaces/share/zed_interfaces/cmake/export_zed_interfaces__rosidl_generator_pyExport-release.cmake
+[19.325s] Invoked command in '/home/barusu/ros2_ws/build/zed_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/barusu/ros2_ws/install/launch_testing_examples:/home/barusu/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/barusu/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/barusu/ros2_ws/install/examples_rclpy_minimal_service:/home/barusu/ros2_ws/install/examples_rclpy_minimal_publisher:/home/barusu/ros2_ws/install/examples_rclpy_minimal_client:/home/barusu/ros2_ws/install/examples_rclpy_minimal_action_server:/home/barusu/ros2_ws/install/examples_rclpy_minimal_action_client:/home/barusu/ros2_ws/install/examples_rclpy_guard_conditions:/home/barusu/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /home/barusu/.local/bin/cmake --install /home/barusu/ros2_ws/build/zed_interfaces

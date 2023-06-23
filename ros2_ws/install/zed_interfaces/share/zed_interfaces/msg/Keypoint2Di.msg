@@ -1,0 +1,1 @@
+/home/barusu/ros2_ws/src/zed-ros2-wrapper/zed-ros2-interfaces/msg/Keypoint2Di.msg

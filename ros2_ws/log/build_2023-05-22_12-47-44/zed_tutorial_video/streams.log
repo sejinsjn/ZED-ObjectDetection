@@ -1,0 +1,59 @@
+[0.022s] Invoking command in '/home/barusu/ros2_ws/build/zed_tutorial_video': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/barusu/ros2_ws/install/launch_testing_examples:/home/barusu/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/barusu/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/barusu/ros2_ws/install/examples_rclpy_minimal_service:/home/barusu/ros2_ws/install/examples_rclpy_minimal_publisher:/home/barusu/ros2_ws/install/examples_rclpy_minimal_client:/home/barusu/ros2_ws/install/examples_rclpy_minimal_action_server:/home/barusu/ros2_ws/install/examples_rclpy_minimal_action_client:/home/barusu/ros2_ws/install/examples_rclpy_guard_conditions:/home/barusu/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /home/barusu/.local/bin/cmake /home/barusu/ros2_ws/src/zed-ros2-examples/tutorials/zed_video_tutorial -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/barusu/ros2_ws/install/zed_tutorial_video
+[0.137s] -- The C compiler identification is GNU 11.3.0
+[0.229s] -- The CXX compiler identification is GNU 11.3.0
+[0.242s] -- Detecting C compiler ABI info
+[0.323s] -- Detecting C compiler ABI info - done
+[0.337s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.337s] -- Detecting C compile features
+[0.338s] -- Detecting C compile features - done
+[0.343s] -- Detecting CXX compiler ABI info
+[0.422s] -- Detecting CXX compiler ABI info - done
+[0.441s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.442s] -- Detecting CXX compile features
+[0.443s] -- Detecting CXX compile features - done
+[0.447s] -- Found ament_cmake_auto: 1.3.4 (/opt/ros/humble/share/ament_cmake_auto/cmake)
+[1.270s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[1.351s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.571s] -- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.583s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.605s] -- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.636s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.674s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.795s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.800s] -- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.973s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[2.033s] -- Found FastRTPS: /opt/ros/humble/include  
+[2.125s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.147s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.236s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[2.239s] -- Found Threads: TRUE  
+[2.886s] -- Found ament_lint_auto: 0.12.6 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.896s] -- Configuring done (2.8s)
+[2.912s] -- Generating done (0.0s)
+[2.914s] -- Build files have been written to: /home/barusu/ros2_ws/build/zed_tutorial_video
+[2.975s] Invoked command in '/home/barusu/ros2_ws/build/zed_tutorial_video' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/barusu/ros2_ws/install/launch_testing_examples:/home/barusu/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/barusu/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/barusu/ros2_ws/install/examples_rclpy_minimal_service:/home/barusu/ros2_ws/install/examples_rclpy_minimal_publisher:/home/barusu/ros2_ws/install/examples_rclpy_minimal_client:/home/barusu/ros2_ws/install/examples_rclpy_minimal_action_server:/home/barusu/ros2_ws/install/examples_rclpy_minimal_action_client:/home/barusu/ros2_ws/install/examples_rclpy_guard_conditions:/home/barusu/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /home/barusu/.local/bin/cmake /home/barusu/ros2_ws/src/zed-ros2-examples/tutorials/zed_video_tutorial -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/barusu/ros2_ws/install/zed_tutorial_video
+[2.976s] Invoking command in '/home/barusu/ros2_ws/build/zed_tutorial_video': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/barusu/ros2_ws/install/launch_testing_examples:/home/barusu/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/barusu/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/barusu/ros2_ws/install/examples_rclpy_minimal_service:/home/barusu/ros2_ws/install/examples_rclpy_minimal_publisher:/home/barusu/ros2_ws/install/examples_rclpy_minimal_client:/home/barusu/ros2_ws/install/examples_rclpy_minimal_action_server:/home/barusu/ros2_ws/install/examples_rclpy_minimal_action_client:/home/barusu/ros2_ws/install/examples_rclpy_guard_conditions:/home/barusu/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /home/barusu/.local/bin/cmake --build /home/barusu/ros2_ws/build/zed_tutorial_video -- -j8 -l8
+[3.011s] [ 50%] [32mBuilding CXX object CMakeFiles/zed_tutorial_video.dir/src/zed_video_sub_tutorial.cpp.o[0m
+[22.928s] [100%] [32m[1mLinking CXX executable zed_tutorial_video[0m
+[23.159s] [100%] Built target zed_tutorial_video
+[23.172s] Invoked command in '/home/barusu/ros2_ws/build/zed_tutorial_video' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/barusu/ros2_ws/install/launch_testing_examples:/home/barusu/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/barusu/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/barusu/ros2_ws/install/examples_rclpy_minimal_service:/home/barusu/ros2_ws/install/examples_rclpy_minimal_publisher:/home/barusu/ros2_ws/install/examples_rclpy_minimal_client:/home/barusu/ros2_ws/install/examples_rclpy_minimal_action_server:/home/barusu/ros2_ws/install/examples_rclpy_minimal_action_client:/home/barusu/ros2_ws/install/examples_rclpy_guard_conditions:/home/barusu/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /home/barusu/.local/bin/cmake --build /home/barusu/ros2_ws/build/zed_tutorial_video -- -j8 -l8
+[23.255s] Invoking command in '/home/barusu/ros2_ws/build/zed_tutorial_video': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/barusu/ros2_ws/install/launch_testing_examples:/home/barusu/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/barusu/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/barusu/ros2_ws/install/examples_rclpy_minimal_service:/home/barusu/ros2_ws/install/examples_rclpy_minimal_publisher:/home/barusu/ros2_ws/install/examples_rclpy_minimal_client:/home/barusu/ros2_ws/install/examples_rclpy_minimal_action_server:/home/barusu/ros2_ws/install/examples_rclpy_minimal_action_client:/home/barusu/ros2_ws/install/examples_rclpy_guard_conditions:/home/barusu/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /home/barusu/.local/bin/cmake --install /home/barusu/ros2_ws/build/zed_tutorial_video
+[23.300s] -- Install configuration: "Release"
+[23.301s] -- Execute custom install script
+[23.302s] -- Symlinking: /home/barusu/ros2_ws/install/zed_tutorial_video/lib/zed_tutorial_video/zed_tutorial_video
+[23.307s] -- Symlinking: /home/barusu/ros2_ws/install/zed_tutorial_video/share/ament_index/resource_index/package_run_dependencies/zed_tutorial_video
+[23.312s] -- Symlinking: /home/barusu/ros2_ws/install/zed_tutorial_video/share/ament_index/resource_index/parent_prefix_path/zed_tutorial_video
+[23.316s] -- Symlinking: /home/barusu/ros2_ws/install/zed_tutorial_video/share/zed_tutorial_video/environment/ament_prefix_path.sh
+[23.321s] -- Symlinking: /home/barusu/ros2_ws/install/zed_tutorial_video/share/zed_tutorial_video/environment/ament_prefix_path.dsv
+[23.326s] -- Symlinking: /home/barusu/ros2_ws/install/zed_tutorial_video/share/zed_tutorial_video/environment/path.sh
+[23.330s] -- Symlinking: /home/barusu/ros2_ws/install/zed_tutorial_video/share/zed_tutorial_video/environment/path.dsv
+[23.335s] -- Symlinking: /home/barusu/ros2_ws/install/zed_tutorial_video/share/zed_tutorial_video/local_setup.bash
+[23.340s] -- Symlinking: /home/barusu/ros2_ws/install/zed_tutorial_video/share/zed_tutorial_video/local_setup.sh
+[23.345s] -- Symlinking: /home/barusu/ros2_ws/install/zed_tutorial_video/share/zed_tutorial_video/local_setup.zsh
+[23.349s] -- Symlinking: /home/barusu/ros2_ws/install/zed_tutorial_video/share/zed_tutorial_video/local_setup.dsv
+[23.354s] -- Symlinking: /home/barusu/ros2_ws/install/zed_tutorial_video/share/zed_tutorial_video/package.dsv
+[23.359s] -- Symlinking: /home/barusu/ros2_ws/install/zed_tutorial_video/share/ament_index/resource_index/packages/zed_tutorial_video
+[23.364s] -- Symlinking: /home/barusu/ros2_ws/install/zed_tutorial_video/share/zed_tutorial_video/cmake/zed_tutorial_videoConfig.cmake
+[23.369s] -- Symlinking: /home/barusu/ros2_ws/install/zed_tutorial_video/share/zed_tutorial_video/cmake/zed_tutorial_videoConfig-version.cmake
+[23.374s] -- Symlinking: /home/barusu/ros2_ws/install/zed_tutorial_video/share/zed_tutorial_video/package.xml
+[23.391s] Invoked command in '/home/barusu/ros2_ws/build/zed_tutorial_video' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/barusu/ros2_ws/install/launch_testing_examples:/home/barusu/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/barusu/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/barusu/ros2_ws/install/examples_rclpy_minimal_service:/home/barusu/ros2_ws/install/examples_rclpy_minimal_publisher:/home/barusu/ros2_ws/install/examples_rclpy_minimal_client:/home/barusu/ros2_ws/install/examples_rclpy_minimal_action_server:/home/barusu/ros2_ws/install/examples_rclpy_minimal_action_client:/home/barusu/ros2_ws/install/examples_rclpy_guard_conditions:/home/barusu/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /home/barusu/.local/bin/cmake --install /home/barusu/ros2_ws/build/zed_tutorial_video

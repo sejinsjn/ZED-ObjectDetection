@@ -1,0 +1,50 @@
+[0.064s] Invoking command in '/home/barusu/ros2_ws/build/zed_topic_benchmark': CMAKE_PREFIX_PATH=/home/barusu/ros2_ws/install/zed_topic_benchmark_component:/home/barusu/ros2_ws/install/zed_topic_benchmark_interfaces:/home/barusu/ros2_ws/install/zed_ros2:/home/barusu/ros2_ws/install/zed_multi_camera:/home/barusu/ros2_ws/install/zed_display_rviz2:/home/barusu/ros2_ws/install/zed_wrapper:/home/barusu/ros2_ws/install/zed_tutorial_video:/home/barusu/ros2_ws/install/zed_tutorial_pos_tracking:/home/barusu/ros2_ws/install/zed_tutorial_depth:/home/barusu/ros2_ws/install/zed_topic_benchmark:/home/barusu/ros2_ws/install/zed_rgb_convert:/home/barusu/ros2_ws/install/zed_components:/home/barusu/ros2_ws/install/rviz_plugin_zed_od:/home/barusu/ros2_ws/install/zed_interfaces:/opt/ros/humble /home/barusu/.local/bin/cmake --build /home/barusu/ros2_ws/build/zed_topic_benchmark -- -j8 -l8
+[0.167s] -- Found ament_cmake_auto: 1.3.4 (/opt/ros/humble/share/ament_cmake_auto/cmake)
+[0.424s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.655s] -- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.665s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.686s] -- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.726s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.773s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.926s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.930s] -- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.150s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.792s] -- Found ament_lint_auto: 0.12.6 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.893s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.895s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.895s] -- Configured cppcheck include dirs: 
+[1.895s] -- Configured cppcheck exclude dirs and/or files: 
+[1.897s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.897s] -- Configured cpplint exclude dirs and/or files: 
+[1.898s] -- Added test 'lint_cmake' to check CMake code style
+[1.900s] -- Added test 'uncrustify' to check C / C++ code style
+[1.900s] -- Configured uncrustify additional arguments: 
+[1.901s] -- Added test 'xmllint' to check XML markup files
+[1.902s] -- Added test 'clang_format' to check C / C++ code style
+[1.906s] -- Configuring done (1.8s)
+[1.970s] -- Generating done (0.0s)
+[1.975s] -- Build files have been written to: /home/barusu/ros2_ws/build/zed_topic_benchmark
+[2.036s] [ 50%] [32mBuilding CXX object CMakeFiles/zed_topic_benchmark.dir/src/topic_benchmark_container.cpp.o[0m
+[7.275s] [100%] [32m[1mLinking CXX executable zed_topic_benchmark[0m
+[7.464s] [100%] Built target zed_topic_benchmark
+[7.481s] Invoked command in '/home/barusu/ros2_ws/build/zed_topic_benchmark' returned '0': CMAKE_PREFIX_PATH=/home/barusu/ros2_ws/install/zed_topic_benchmark_component:/home/barusu/ros2_ws/install/zed_topic_benchmark_interfaces:/home/barusu/ros2_ws/install/zed_ros2:/home/barusu/ros2_ws/install/zed_multi_camera:/home/barusu/ros2_ws/install/zed_display_rviz2:/home/barusu/ros2_ws/install/zed_wrapper:/home/barusu/ros2_ws/install/zed_tutorial_video:/home/barusu/ros2_ws/install/zed_tutorial_pos_tracking:/home/barusu/ros2_ws/install/zed_tutorial_depth:/home/barusu/ros2_ws/install/zed_topic_benchmark:/home/barusu/ros2_ws/install/zed_rgb_convert:/home/barusu/ros2_ws/install/zed_components:/home/barusu/ros2_ws/install/rviz_plugin_zed_od:/home/barusu/ros2_ws/install/zed_interfaces:/opt/ros/humble /home/barusu/.local/bin/cmake --build /home/barusu/ros2_ws/build/zed_topic_benchmark -- -j8 -l8
+[7.562s] Invoking command in '/home/barusu/ros2_ws/build/zed_topic_benchmark': CMAKE_PREFIX_PATH=/home/barusu/ros2_ws/install/zed_topic_benchmark_component:/home/barusu/ros2_ws/install/zed_topic_benchmark_interfaces:/home/barusu/ros2_ws/install/zed_ros2:/home/barusu/ros2_ws/install/zed_multi_camera:/home/barusu/ros2_ws/install/zed_display_rviz2:/home/barusu/ros2_ws/install/zed_wrapper:/home/barusu/ros2_ws/install/zed_tutorial_video:/home/barusu/ros2_ws/install/zed_tutorial_pos_tracking:/home/barusu/ros2_ws/install/zed_tutorial_depth:/home/barusu/ros2_ws/install/zed_topic_benchmark:/home/barusu/ros2_ws/install/zed_rgb_convert:/home/barusu/ros2_ws/install/zed_components:/home/barusu/ros2_ws/install/rviz_plugin_zed_od:/home/barusu/ros2_ws/install/zed_interfaces:/opt/ros/humble /home/barusu/.local/bin/cmake --install /home/barusu/ros2_ws/build/zed_topic_benchmark
+[7.607s] -- Install configuration: "Release"
+[7.608s] -- Execute custom install script
+[7.610s] -- Up-to-date symlink: /home/barusu/ros2_ws/install/zed_topic_benchmark/lib/zed_topic_benchmark/zed_topic_benchmark
+[7.610s] -- Up-to-date symlink: /home/barusu/ros2_ws/install/zed_topic_benchmark/share/ament_index/resource_index/package_run_dependencies/zed_topic_benchmark
+[7.610s] -- Up-to-date symlink: /home/barusu/ros2_ws/install/zed_topic_benchmark/share/ament_index/resource_index/parent_prefix_path/zed_topic_benchmark
+[7.611s] -- Up-to-date symlink: /home/barusu/ros2_ws/install/zed_topic_benchmark/share/zed_topic_benchmark/environment/ament_prefix_path.sh
+[7.611s] -- Up-to-date symlink: /home/barusu/ros2_ws/install/zed_topic_benchmark/share/zed_topic_benchmark/environment/ament_prefix_path.dsv
+[7.612s] -- Up-to-date symlink: /home/barusu/ros2_ws/install/zed_topic_benchmark/share/zed_topic_benchmark/environment/path.sh
+[7.612s] -- Up-to-date symlink: /home/barusu/ros2_ws/install/zed_topic_benchmark/share/zed_topic_benchmark/environment/path.dsv
+[7.612s] -- Up-to-date symlink: /home/barusu/ros2_ws/install/zed_topic_benchmark/share/zed_topic_benchmark/local_setup.bash
+[7.613s] -- Up-to-date symlink: /home/barusu/ros2_ws/install/zed_topic_benchmark/share/zed_topic_benchmark/local_setup.sh
+[7.613s] -- Up-to-date symlink: /home/barusu/ros2_ws/install/zed_topic_benchmark/share/zed_topic_benchmark/local_setup.zsh
+[7.613s] -- Up-to-date symlink: /home/barusu/ros2_ws/install/zed_topic_benchmark/share/zed_topic_benchmark/local_setup.dsv
+[7.614s] -- Symlinking: /home/barusu/ros2_ws/install/zed_topic_benchmark/share/zed_topic_benchmark/package.dsv
+[7.619s] -- Up-to-date symlink: /home/barusu/ros2_ws/install/zed_topic_benchmark/share/ament_index/resource_index/packages/zed_topic_benchmark
+[7.619s] -- Up-to-date symlink: /home/barusu/ros2_ws/install/zed_topic_benchmark/share/zed_topic_benchmark/cmake/zed_topic_benchmarkConfig.cmake
+[7.619s] -- Up-to-date symlink: /home/barusu/ros2_ws/install/zed_topic_benchmark/share/zed_topic_benchmark/cmake/zed_topic_benchmarkConfig-version.cmake
+[7.620s] -- Up-to-date symlink: /home/barusu/ros2_ws/install/zed_topic_benchmark/share/zed_topic_benchmark/package.xml
+[7.636s] Invoked command in '/home/barusu/ros2_ws/build/zed_topic_benchmark' returned '0': CMAKE_PREFIX_PATH=/home/barusu/ros2_ws/install/zed_topic_benchmark_component:/home/barusu/ros2_ws/install/zed_topic_benchmark_interfaces:/home/barusu/ros2_ws/install/zed_ros2:/home/barusu/ros2_ws/install/zed_multi_camera:/home/barusu/ros2_ws/install/zed_display_rviz2:/home/barusu/ros2_ws/install/zed_wrapper:/home/barusu/ros2_ws/install/zed_tutorial_video:/home/barusu/ros2_ws/install/zed_tutorial_pos_tracking:/home/barusu/ros2_ws/install/zed_tutorial_depth:/home/barusu/ros2_ws/install/zed_topic_benchmark:/home/barusu/ros2_ws/install/zed_rgb_convert:/home/barusu/ros2_ws/install/zed_components:/home/barusu/ros2_ws/install/rviz_plugin_zed_od:/home/barusu/ros2_ws/install/zed_interfaces:/opt/ros/humble /home/barusu/.local/bin/cmake --install /home/barusu/ros2_ws/build/zed_topic_benchmark

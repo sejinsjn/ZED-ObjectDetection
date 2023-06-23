@@ -1,0 +1,4 @@
+Invoking command in '/home/barusu/ros2_ws/build/zed_tutorial_video': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /home/barusu/.local/bin/cmake --build /home/barusu/ros2_ws/build/zed_tutorial_video -- -j8 -l8
+Invoked command in '/home/barusu/ros2_ws/build/zed_tutorial_video' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /home/barusu/.local/bin/cmake --build /home/barusu/ros2_ws/build/zed_tutorial_video -- -j8 -l8
+Invoking command in '/home/barusu/ros2_ws/build/zed_tutorial_video': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /home/barusu/.local/bin/cmake --install /home/barusu/ros2_ws/build/zed_tutorial_video
+Invoked command in '/home/barusu/ros2_ws/build/zed_tutorial_video' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /home/barusu/.local/bin/cmake --install /home/barusu/ros2_ws/build/zed_tutorial_video

@@ -1,0 +1,1 @@
+/home/barusu/ros2_ws/build/zed_topic_benchmark_interfaces/rosidl_cmake/rosidl_cmake_export_typesupport_targets-extras.cmake

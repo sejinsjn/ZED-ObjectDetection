@@ -1,0 +1,73 @@
+[0.029s] Invoking command in '/home/barusu/ros2_ws/build/zed_rgb_convert': CMAKE_PREFIX_PATH=/home/barusu/ros2_ws/install/zed_components:/home/barusu/ros2_ws/install/zed_interfaces:/home/barusu/ros2_ws/install/zed_ros2:/home/barusu/ros2_ws/install/zed_multi_camera:/home/barusu/ros2_ws/install/zed_display_rviz2:/home/barusu/ros2_ws/install/zed_wrapper:/home/barusu/ros2_ws/install/zed_tutorial_video:/home/barusu/ros2_ws/install/zed_tutorial_pos_tracking:/home/barusu/ros2_ws/install/zed_tutorial_depth:/home/barusu/ros2_ws/install/zed_topic_benchmark:/home/barusu/ros2_ws/install/zed_topic_benchmark_component:/home/barusu/ros2_ws/install/zed_topic_benchmark_interfaces:/home/barusu/ros2_ws/install/zed_rgb_convert:/home/barusu/ros2_ws/install/rviz_plugin_zed_od:/opt/ros/humble LD_LIBRARY_PATH=/home/barusu/ros2_ws/install/zed_components/lib:/home/barusu/ros2_ws/install/zed_interfaces/lib:/home/barusu/ros2_ws/install/zed_topic_benchmark_component/lib:/home/barusu/ros2_ws/install/zed_topic_benchmark_interfaces/lib:/home/barusu/ros2_ws/install/zed_rgb_convert/lib:/home/barusu/ros2_ws/install/rviz_plugin_zed_od/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /home/barusu/.local/bin/cmake --build /home/barusu/ros2_ws/build/zed_rgb_convert -- -j8 -l8
+[0.260s] -- Found CUDA: /usr/local/cuda (found suitable version "12.1", minimum required is "12") 
+[0.494s] -- Found CUDA: /usr/local/cuda (found version "12.1") 
+[0.496s] -- Found ament_cmake_auto: 1.3.4 (/opt/ros/humble/share/ament_cmake_auto/cmake)
+[0.733s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.956s] -- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.964s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.983s] -- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.022s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.075s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.263s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.268s] -- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.564s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.723s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[3.727s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[6.649s] -- Found ament_lint_auto: 0.12.6 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[8.333s] -- Added test 'copyright' to check source files copyright and LICENSE
+[8.337s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[8.340s] -- Configured cppcheck include dirs: /home/barusu/ros2_ws/src/zed-ros2-examples/tutorials/zed_rgb_convert/src/include;/home/barusu/ros2_ws/src/zed-ros2-examples/tutorials/zed_rgb_convert/src/component/include
+[8.340s] -- Configured cppcheck exclude dirs and/or files: 
+[8.343s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[8.344s] -- Configured cpplint exclude dirs and/or files: 
+[8.345s] -- Added test 'flake8' to check Python code syntax and style conventions
+[8.347s] -- Added test 'lint_cmake' to check CMake code style
+[8.349s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[8.352s] -- Added test 'uncrustify' to check C / C++ code style
+[8.352s] -- Configured uncrustify additional arguments: 
+[8.354s] -- Added test 'xmllint' to check XML markup files
+[8.357s] -- Added test 'clang_format' to check C / C++ code style
+[8.368s] -- Configuring done (8.3s)
+[8.599s] -- Generating done (0.2s)
+[8.605s] -- Build files have been written to: /home/barusu/ros2_ws/build/zed_rgb_convert
+[8.688s] [ 25%] [32mBuilding CXX object CMakeFiles/zed_rgb_convert_component.dir/src/component/src/zed_rgb_convert_component.cpp.o[0m
+[20.839s] [ 50%] [32m[1mLinking CXX shared library libzed_rgb_convert_component.so[0m
+[21.188s] [ 50%] Built target zed_rgb_convert_component
+[21.246s] [ 75%] [32mBuilding CXX object CMakeFiles/zed_rgb_convert.dir/src/container/zed_rgb_convert.cpp.o[0m
+[27.220s] In file included from [01m[K/home/barusu/ros2_ws/install/zed_components/include/zed_components/zed_camera_component.hpp:19[m[K,
+[27.220s]                  from [01m[K/home/barusu/ros2_ws/src/zed-ros2-examples/tutorials/zed_rgb_convert/src/container/zed_rgb_convert.cpp:17[m[K:
+[27.220s] [01m[K/usr/local/zed/include/sl/Fusion.hpp:68:64:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: ~ FUSION SDK is distributed in Early Access ~[m[K’
+[27.220s]    68 | #pragma message("~ FUSION SDK is distributed in Early Access ~"[01;36m[K)[m[K
+[27.220s]       |                                                                [01;36m[K^[m[K
+[30.850s] [100%] [32m[1mLinking CXX executable zed_rgb_convert[0m
+[31.318s] [100%] Built target zed_rgb_convert
+[31.331s] Invoked command in '/home/barusu/ros2_ws/build/zed_rgb_convert' returned '0': CMAKE_PREFIX_PATH=/home/barusu/ros2_ws/install/zed_components:/home/barusu/ros2_ws/install/zed_interfaces:/home/barusu/ros2_ws/install/zed_ros2:/home/barusu/ros2_ws/install/zed_multi_camera:/home/barusu/ros2_ws/install/zed_display_rviz2:/home/barusu/ros2_ws/install/zed_wrapper:/home/barusu/ros2_ws/install/zed_tutorial_video:/home/barusu/ros2_ws/install/zed_tutorial_pos_tracking:/home/barusu/ros2_ws/install/zed_tutorial_depth:/home/barusu/ros2_ws/install/zed_topic_benchmark:/home/barusu/ros2_ws/install/zed_topic_benchmark_component:/home/barusu/ros2_ws/install/zed_topic_benchmark_interfaces:/home/barusu/ros2_ws/install/zed_rgb_convert:/home/barusu/ros2_ws/install/rviz_plugin_zed_od:/opt/ros/humble LD_LIBRARY_PATH=/home/barusu/ros2_ws/install/zed_components/lib:/home/barusu/ros2_ws/install/zed_interfaces/lib:/home/barusu/ros2_ws/install/zed_topic_benchmark_component/lib:/home/barusu/ros2_ws/install/zed_topic_benchmark_interfaces/lib:/home/barusu/ros2_ws/install/zed_rgb_convert/lib:/home/barusu/ros2_ws/install/rviz_plugin_zed_od/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /home/barusu/.local/bin/cmake --build /home/barusu/ros2_ws/build/zed_rgb_convert -- -j8 -l8
+[31.403s] Invoking command in '/home/barusu/ros2_ws/build/zed_rgb_convert': CMAKE_PREFIX_PATH=/home/barusu/ros2_ws/install/zed_components:/home/barusu/ros2_ws/install/zed_interfaces:/home/barusu/ros2_ws/install/zed_ros2:/home/barusu/ros2_ws/install/zed_multi_camera:/home/barusu/ros2_ws/install/zed_display_rviz2:/home/barusu/ros2_ws/install/zed_wrapper:/home/barusu/ros2_ws/install/zed_tutorial_video:/home/barusu/ros2_ws/install/zed_tutorial_pos_tracking:/home/barusu/ros2_ws/install/zed_tutorial_depth:/home/barusu/ros2_ws/install/zed_topic_benchmark:/home/barusu/ros2_ws/install/zed_topic_benchmark_component:/home/barusu/ros2_ws/install/zed_topic_benchmark_interfaces:/home/barusu/ros2_ws/install/zed_rgb_convert:/home/barusu/ros2_ws/install/rviz_plugin_zed_od:/opt/ros/humble LD_LIBRARY_PATH=/home/barusu/ros2_ws/install/zed_components/lib:/home/barusu/ros2_ws/install/zed_interfaces/lib:/home/barusu/ros2_ws/install/zed_topic_benchmark_component/lib:/home/barusu/ros2_ws/install/zed_topic_benchmark_interfaces/lib:/home/barusu/ros2_ws/install/zed_rgb_convert/lib:/home/barusu/ros2_ws/install/rviz_plugin_zed_od/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /home/barusu/.local/bin/cmake --install /home/barusu/ros2_ws/build/zed_rgb_convert
+[31.437s] -- Install configuration: "Release"
+[31.437s] -- Execute custom install script
+[31.439s] -- Up-to-date symlink: /home/barusu/ros2_ws/install/zed_rgb_convert/lib/zed_rgb_convert/zed_rgb_convert
+[31.439s] -- Up-to-date symlink: /home/barusu/ros2_ws/install/zed_rgb_convert/lib/libzed_rgb_convert_component.so
+[31.440s] -- Up-to-date symlink: /home/barusu/ros2_ws/install/zed_rgb_convert/include/zed_rgb_convert//cvt_visibility_control.hpp
+[31.441s] -- Up-to-date symlink: /home/barusu/ros2_ws/install/zed_rgb_convert/share/zed_rgb_convert/launch/zed_rgb_convert.launch.py
+[31.441s] -- Up-to-date symlink: /home/barusu/ros2_ws/install/zed_rgb_convert/share/zed_rgb_convert/environment/library_path.sh
+[31.441s] -- Up-to-date symlink: /home/barusu/ros2_ws/install/zed_rgb_convert/share/zed_rgb_convert/environment/library_path.dsv
+[31.441s] -- Up-to-date symlink: /home/barusu/ros2_ws/install/zed_rgb_convert/share/ament_index/resource_index/package_run_dependencies/zed_rgb_convert
+[31.442s] -- Up-to-date symlink: /home/barusu/ros2_ws/install/zed_rgb_convert/share/ament_index/resource_index/parent_prefix_path/zed_rgb_convert
+[31.442s] -- Up-to-date symlink: /home/barusu/ros2_ws/install/zed_rgb_convert/share/zed_rgb_convert/environment/ament_prefix_path.sh
+[31.443s] -- Up-to-date symlink: /home/barusu/ros2_ws/install/zed_rgb_convert/share/zed_rgb_convert/environment/ament_prefix_path.dsv
+[31.443s] -- Up-to-date symlink: /home/barusu/ros2_ws/install/zed_rgb_convert/share/zed_rgb_convert/environment/path.sh
+[31.443s] -- Up-to-date symlink: /home/barusu/ros2_ws/install/zed_rgb_convert/share/zed_rgb_convert/environment/path.dsv
+[31.444s] -- Up-to-date symlink: /home/barusu/ros2_ws/install/zed_rgb_convert/share/zed_rgb_convert/local_setup.bash
+[31.444s] -- Up-to-date symlink: /home/barusu/ros2_ws/install/zed_rgb_convert/share/zed_rgb_convert/local_setup.sh
+[31.444s] -- Up-to-date symlink: /home/barusu/ros2_ws/install/zed_rgb_convert/share/zed_rgb_convert/local_setup.zsh
+[31.444s] -- Up-to-date symlink: /home/barusu/ros2_ws/install/zed_rgb_convert/share/zed_rgb_convert/local_setup.dsv
+[31.445s] -- Symlinking: /home/barusu/ros2_ws/install/zed_rgb_convert/share/zed_rgb_convert/package.dsv
+[31.449s] -- Up-to-date symlink: /home/barusu/ros2_ws/install/zed_rgb_convert/share/ament_index/resource_index/packages/zed_rgb_convert
+[31.449s] -- Up-to-date symlink: /home/barusu/ros2_ws/install/zed_rgb_convert/share/ament_index/resource_index/rclcpp_components/zed_rgb_convert
+[31.450s] -- Up-to-date symlink: /home/barusu/ros2_ws/install/zed_rgb_convert/share/zed_rgb_convert/cmake/ament_cmake_export_include_directories-extras.cmake
+[31.450s] -- Up-to-date symlink: /home/barusu/ros2_ws/install/zed_rgb_convert/share/zed_rgb_convert/cmake/ament_cmake_export_libraries-extras.cmake
+[31.451s] -- Up-to-date symlink: /home/barusu/ros2_ws/install/zed_rgb_convert/share/zed_rgb_convert/cmake/ament_cmake_export_dependencies-extras.cmake
+[31.451s] -- Up-to-date symlink: /home/barusu/ros2_ws/install/zed_rgb_convert/share/zed_rgb_convert/cmake/zed_rgb_convertConfig.cmake
+[31.451s] -- Up-to-date symlink: /home/barusu/ros2_ws/install/zed_rgb_convert/share/zed_rgb_convert/cmake/zed_rgb_convertConfig-version.cmake
+[31.451s] -- Up-to-date symlink: /home/barusu/ros2_ws/install/zed_rgb_convert/share/zed_rgb_convert/package.xml
+[31.461s] Invoked command in '/home/barusu/ros2_ws/build/zed_rgb_convert' returned '0': CMAKE_PREFIX_PATH=/home/barusu/ros2_ws/install/zed_components:/home/barusu/ros2_ws/install/zed_interfaces:/home/barusu/ros2_ws/install/zed_ros2:/home/barusu/ros2_ws/install/zed_multi_camera:/home/barusu/ros2_ws/install/zed_display_rviz2:/home/barusu/ros2_ws/install/zed_wrapper:/home/barusu/ros2_ws/install/zed_tutorial_video:/home/barusu/ros2_ws/install/zed_tutorial_pos_tracking:/home/barusu/ros2_ws/install/zed_tutorial_depth:/home/barusu/ros2_ws/install/zed_topic_benchmark:/home/barusu/ros2_ws/install/zed_topic_benchmark_component:/home/barusu/ros2_ws/install/zed_topic_benchmark_interfaces:/home/barusu/ros2_ws/install/zed_rgb_convert:/home/barusu/ros2_ws/install/rviz_plugin_zed_od:/opt/ros/humble LD_LIBRARY_PATH=/home/barusu/ros2_ws/install/zed_components/lib:/home/barusu/ros2_ws/install/zed_interfaces/lib:/home/barusu/ros2_ws/install/zed_topic_benchmark_component/lib:/home/barusu/ros2_ws/install/zed_topic_benchmark_interfaces/lib:/home/barusu/ros2_ws/install/zed_rgb_convert/lib:/home/barusu/ros2_ws/install/rviz_plugin_zed_od/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /home/barusu/.local/bin/cmake --install /home/barusu/ros2_ws/build/zed_rgb_convert

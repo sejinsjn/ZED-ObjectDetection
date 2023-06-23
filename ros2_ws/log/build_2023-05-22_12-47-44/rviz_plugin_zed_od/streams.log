@@ -1,0 +1,126 @@
+[0.020s] Invoking command in '/home/barusu/ros2_ws/build/rviz_plugin_zed_od': CMAKE_PREFIX_PATH=/home/barusu/ros2_ws/install/zed_interfaces:/home/barusu/ros2_ws/install/zed_ros2:/home/barusu/ros2_ws/install/zed_wrapper:/home/barusu/ros2_ws/install/zed_components:/home/barusu/ros2_ws/install/examples_rclcpp_wait_set:/home/barusu/ros2_ws/install/examples_rclcpp_multithreaded_executor:/home/barusu/ros2_ws/install/examples_rclcpp_minimal_timer:/home/barusu/ros2_ws/install/examples_rclcpp_minimal_subscriber:/home/barusu/ros2_ws/install/examples_rclcpp_minimal_service:/home/barusu/ros2_ws/install/examples_rclcpp_minimal_publisher:/home/barusu/ros2_ws/install/examples_rclcpp_minimal_composition:/home/barusu/ros2_ws/install/examples_rclcpp_minimal_client:/home/barusu/ros2_ws/install/examples_rclcpp_minimal_action_server:/home/barusu/ros2_ws/install/examples_rclcpp_minimal_action_client:/home/barusu/ros2_ws/install/examples_rclcpp_cbg_executor:/home/barusu/ros2_ws/install/examples_rclcpp_async_client:/home/barusu/ros2_ws/install/launch_testing_examples:/home/barusu/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/barusu/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/barusu/ros2_ws/install/examples_rclpy_minimal_service:/home/barusu/ros2_ws/install/examples_rclpy_minimal_publisher:/home/barusu/ros2_ws/install/examples_rclpy_minimal_client:/home/barusu/ros2_ws/install/examples_rclpy_minimal_action_server:/home/barusu/ros2_ws/install/examples_rclpy_minimal_action_client:/home/barusu/ros2_ws/install/examples_rclpy_guard_conditions:/home/barusu/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble LD_LIBRARY_PATH=/home/barusu/ros2_ws/install/zed_interfaces/lib:/home/barusu/ros2_ws/install/zed_components/lib:/home/barusu/ros2_ws/install/examples_rclcpp_wait_set/lib:/home/barusu/ros2_ws/install/examples_rclcpp_minimal_subscriber/lib:/home/barusu/ros2_ws/install/examples_rclcpp_minimal_composition/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /home/barusu/.local/bin/cmake /home/barusu/ros2_ws/src/zed-ros2-examples/rviz-plugin-zed-od -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/barusu/ros2_ws/install/rviz_plugin_zed_od
+[0.151s] -- The C compiler identification is GNU 11.3.0
+[0.236s] -- The CXX compiler identification is GNU 11.3.0
+[0.253s] -- Detecting C compiler ABI info
+[0.346s] -- Detecting C compiler ABI info - done
+[0.372s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.373s] -- Detecting C compile features
+[0.374s] -- Detecting C compile features - done
+[0.382s] -- Detecting CXX compiler ABI info
+[0.490s] -- Detecting CXX compiler ABI info - done
+[0.519s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.522s] -- Detecting CXX compile features
+[0.523s] -- Detecting CXX compile features - done
+[0.525s] -- Enabling tests requiring a display
+[0.528s] -- Found ament_cmake_auto: 1.3.4 (/opt/ros/humble/share/ament_cmake_auto/cmake)
+[1.581s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[1.713s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.927s] -- Setting OGRE_DIR to: '/opt/ros/humble/share/rviz_ogre_vendor/cmake/../../../opt/rviz_ogre_vendor/lib/OGRE/cmake'
+[1.931s] -- Found OGRE
+[1.932s] --   static     : OFF
+[1.932s] --   components : HLMS;MeshLodGenerator;Overlay;Paging;Property;RTShaderSystem;Terrain;Volume
+[1.932s] --   plugins    : Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI
+[1.932s] --   media      : /opt/ros/humble/opt/rviz_ogre_vendor/share/OGRE/Media
+[1.932s] -- OGRE_LIBRARIES: OgreHLMS;OgreMeshLodGenerator;OgreOverlay;OgrePaging;OgreProperty;OgreRTShaderSystem;OgreTerrain;OgreVolume;OgreMain
+[1.932s] -- OGRE_LIBRARY_DIRS: /opt/ros/humble/opt/rviz_ogre_vendor/lib
+[1.933s] -- OGRE_PLUGINS: Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI
+[1.933s] -- OGRE_PLUGIN_DIR: /opt/ros/humble/opt/rviz_ogre_vendor/lib/OGRE
+[1.933s] -- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_RELEASE: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
+[1.933s] -- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_DEBUG: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
+[1.933s] -- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_RELEASE: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreMain.so
+[1.933s] -- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_DEBUG: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreMain.so
+[1.957s] -- Could not find freeimage library
+[2.077s] -- Found ZLIB: /usr/lib/x86_64-linux-gnu/libz.so (found version "1.2.11")  
+[2.131s] -- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so   
+[2.676s] -- Found X11: /usr/include   
+[2.676s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so
+[3.053s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so - found
+[3.054s] -- Looking for gethostbyname
+[3.290s] -- Looking for gethostbyname - found
+[3.291s] -- Looking for connect
+[3.614s] -- Looking for connect - found
+[3.614s] -- Looking for remove
+[3.954s] -- Looking for remove - found
+[3.954s] -- Looking for shmat
+[4.338s] -- Looking for shmat - found
+[4.339s] -- Looking for IceConnectionNumber in ICE
+[4.593s] -- Looking for IceConnectionNumber in ICE - found
+[4.600s] -- rviz_ogre_vendor::RenderSystem_GL for IMPORTED_LOCATION_RELEASE: _render_system_gl_static_library_abs-NOTFOUND
+[4.601s] -- rviz_ogre_vendor::RenderSystem_GL for IMPORTED_LOCATION_DEBUG: _render_system_gl_static_library_abs-NOTFOUND
+[4.691s] -- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[4.701s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[4.723s] -- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[4.766s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.822s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[5.529s] -- Found rviz_common: 11.2.5 (/opt/ros/humble/share/rviz_common/cmake)
+[5.734s] -- library: /usr/lib/x86_64-linux-gnu/libcurl.so
+[5.966s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[5.977s] -- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[6.210s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[6.268s] -- Found FastRTPS: /opt/ros/humble/include  
+[6.398s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[6.423s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[6.538s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[6.541s] -- Found Threads: TRUE  
+[7.266s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[7.266s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[8.319s] -- Found ament_lint_auto: 0.12.6 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[8.379s] -- Added test 'copyright' to check source files copyright and LICENSE
+[8.384s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[8.385s] -- Configured cppcheck include dirs: /home/barusu/ros2_ws/src/zed-ros2-examples/rviz-plugin-zed-od/src/include;/home/barusu/ros2_ws/src/zed-ros2-examples/rviz-plugin-zed-od/src/plugin/include;$<BUILD_INTERFACE:/home/barusu/ros2_ws/src/zed-ros2-examples/rviz-plugin-zed-od/include>
+[8.385s] -- Configured cppcheck exclude dirs and/or files: 
+[8.389s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[8.389s] -- Configured cpplint exclude dirs and/or files: 
+[8.392s] -- Added test 'lint_cmake' to check CMake code style
+[8.397s] -- Added test 'uncrustify' to check C / C++ code style
+[8.397s] -- Configured uncrustify additional arguments: 
+[8.399s] -- Added test 'xmllint' to check XML markup files
+[8.404s] -- Added test 'clang_format' to check C / C++ code style
+[8.411s] -- Configuring done (8.3s)
+[8.507s] -- Generating done (0.0s)
+[8.514s] -- Build files have been written to: /home/barusu/ros2_ws/build/rviz_plugin_zed_od
+[8.543s] Invoked command in '/home/barusu/ros2_ws/build/rviz_plugin_zed_od' returned '0': CMAKE_PREFIX_PATH=/home/barusu/ros2_ws/install/zed_interfaces:/home/barusu/ros2_ws/install/zed_ros2:/home/barusu/ros2_ws/install/zed_wrapper:/home/barusu/ros2_ws/install/zed_components:/home/barusu/ros2_ws/install/examples_rclcpp_wait_set:/home/barusu/ros2_ws/install/examples_rclcpp_multithreaded_executor:/home/barusu/ros2_ws/install/examples_rclcpp_minimal_timer:/home/barusu/ros2_ws/install/examples_rclcpp_minimal_subscriber:/home/barusu/ros2_ws/install/examples_rclcpp_minimal_service:/home/barusu/ros2_ws/install/examples_rclcpp_minimal_publisher:/home/barusu/ros2_ws/install/examples_rclcpp_minimal_composition:/home/barusu/ros2_ws/install/examples_rclcpp_minimal_client:/home/barusu/ros2_ws/install/examples_rclcpp_minimal_action_server:/home/barusu/ros2_ws/install/examples_rclcpp_minimal_action_client:/home/barusu/ros2_ws/install/examples_rclcpp_cbg_executor:/home/barusu/ros2_ws/install/examples_rclcpp_async_client:/home/barusu/ros2_ws/install/launch_testing_examples:/home/barusu/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/barusu/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/barusu/ros2_ws/install/examples_rclpy_minimal_service:/home/barusu/ros2_ws/install/examples_rclpy_minimal_publisher:/home/barusu/ros2_ws/install/examples_rclpy_minimal_client:/home/barusu/ros2_ws/install/examples_rclpy_minimal_action_server:/home/barusu/ros2_ws/install/examples_rclpy_minimal_action_client:/home/barusu/ros2_ws/install/examples_rclpy_guard_conditions:/home/barusu/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble LD_LIBRARY_PATH=/home/barusu/ros2_ws/install/zed_interfaces/lib:/home/barusu/ros2_ws/install/zed_components/lib:/home/barusu/ros2_ws/install/examples_rclcpp_wait_set/lib:/home/barusu/ros2_ws/install/examples_rclcpp_minimal_subscriber/lib:/home/barusu/ros2_ws/install/examples_rclcpp_minimal_composition/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /home/barusu/.local/bin/cmake /home/barusu/ros2_ws/src/zed-ros2-examples/rviz-plugin-zed-od -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/barusu/ros2_ws/install/rviz_plugin_zed_od
+[8.547s] Invoking command in '/home/barusu/ros2_ws/build/rviz_plugin_zed_od': CMAKE_PREFIX_PATH=/home/barusu/ros2_ws/install/zed_interfaces:/home/barusu/ros2_ws/install/zed_ros2:/home/barusu/ros2_ws/install/zed_wrapper:/home/barusu/ros2_ws/install/zed_components:/home/barusu/ros2_ws/install/examples_rclcpp_wait_set:/home/barusu/ros2_ws/install/examples_rclcpp_multithreaded_executor:/home/barusu/ros2_ws/install/examples_rclcpp_minimal_timer:/home/barusu/ros2_ws/install/examples_rclcpp_minimal_subscriber:/home/barusu/ros2_ws/install/examples_rclcpp_minimal_service:/home/barusu/ros2_ws/install/examples_rclcpp_minimal_publisher:/home/barusu/ros2_ws/install/examples_rclcpp_minimal_composition:/home/barusu/ros2_ws/install/examples_rclcpp_minimal_client:/home/barusu/ros2_ws/install/examples_rclcpp_minimal_action_server:/home/barusu/ros2_ws/install/examples_rclcpp_minimal_action_client:/home/barusu/ros2_ws/install/examples_rclcpp_cbg_executor:/home/barusu/ros2_ws/install/examples_rclcpp_async_client:/home/barusu/ros2_ws/install/launch_testing_examples:/home/barusu/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/barusu/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/barusu/ros2_ws/install/examples_rclpy_minimal_service:/home/barusu/ros2_ws/install/examples_rclpy_minimal_publisher:/home/barusu/ros2_ws/install/examples_rclpy_minimal_client:/home/barusu/ros2_ws/install/examples_rclpy_minimal_action_server:/home/barusu/ros2_ws/install/examples_rclpy_minimal_action_client:/home/barusu/ros2_ws/install/examples_rclpy_guard_conditions:/home/barusu/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble LD_LIBRARY_PATH=/home/barusu/ros2_ws/install/zed_interfaces/lib:/home/barusu/ros2_ws/install/zed_components/lib:/home/barusu/ros2_ws/install/examples_rclcpp_wait_set/lib:/home/barusu/ros2_ws/install/examples_rclcpp_minimal_subscriber/lib:/home/barusu/ros2_ws/install/examples_rclcpp_minimal_composition/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /home/barusu/.local/bin/cmake --build /home/barusu/ros2_ws/build/rviz_plugin_zed_od -- -j8 -l8
+[8.637s] [ 20%] [34m[1mAutomatic MOC and UIC for target rviz_plugin_zed_od[0m
+[9.377s] [ 20%] Built target rviz_plugin_zed_od_autogen
+[9.389s] [ 60%] [32mBuilding CXX object CMakeFiles/rviz_plugin_zed_od.dir/src/plugin/src/zed_od_display.cpp.o[0m
+[9.390s] [ 60%] [32mBuilding CXX object CMakeFiles/rviz_plugin_zed_od.dir/rviz_plugin_zed_od_autogen/mocs_compilation.cpp.o[0m
+[9.390s] [ 80%] [32mBuilding CXX object CMakeFiles/rviz_plugin_zed_od.dir/src/plugin/src/zed_od_info.cpp.o[0m
+[34.493s] [100%] [32m[1mLinking CXX shared library librviz_plugin_zed_od.so[0m
+[35.263s] [100%] Built target rviz_plugin_zed_od
+[35.273s] Invoked command in '/home/barusu/ros2_ws/build/rviz_plugin_zed_od' returned '0': CMAKE_PREFIX_PATH=/home/barusu/ros2_ws/install/zed_interfaces:/home/barusu/ros2_ws/install/zed_ros2:/home/barusu/ros2_ws/install/zed_wrapper:/home/barusu/ros2_ws/install/zed_components:/home/barusu/ros2_ws/install/examples_rclcpp_wait_set:/home/barusu/ros2_ws/install/examples_rclcpp_multithreaded_executor:/home/barusu/ros2_ws/install/examples_rclcpp_minimal_timer:/home/barusu/ros2_ws/install/examples_rclcpp_minimal_subscriber:/home/barusu/ros2_ws/install/examples_rclcpp_minimal_service:/home/barusu/ros2_ws/install/examples_rclcpp_minimal_publisher:/home/barusu/ros2_ws/install/examples_rclcpp_minimal_composition:/home/barusu/ros2_ws/install/examples_rclcpp_minimal_client:/home/barusu/ros2_ws/install/examples_rclcpp_minimal_action_server:/home/barusu/ros2_ws/install/examples_rclcpp_minimal_action_client:/home/barusu/ros2_ws/install/examples_rclcpp_cbg_executor:/home/barusu/ros2_ws/install/examples_rclcpp_async_client:/home/barusu/ros2_ws/install/launch_testing_examples:/home/barusu/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/barusu/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/barusu/ros2_ws/install/examples_rclpy_minimal_service:/home/barusu/ros2_ws/install/examples_rclpy_minimal_publisher:/home/barusu/ros2_ws/install/examples_rclpy_minimal_client:/home/barusu/ros2_ws/install/examples_rclpy_minimal_action_server:/home/barusu/ros2_ws/install/examples_rclpy_minimal_action_client:/home/barusu/ros2_ws/install/examples_rclpy_guard_conditions:/home/barusu/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble LD_LIBRARY_PATH=/home/barusu/ros2_ws/install/zed_interfaces/lib:/home/barusu/ros2_ws/install/zed_components/lib:/home/barusu/ros2_ws/install/examples_rclcpp_wait_set/lib:/home/barusu/ros2_ws/install/examples_rclcpp_minimal_subscriber/lib:/home/barusu/ros2_ws/install/examples_rclcpp_minimal_composition/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /home/barusu/.local/bin/cmake --build /home/barusu/ros2_ws/build/rviz_plugin_zed_od -- -j8 -l8
+[35.325s] Invoking command in '/home/barusu/ros2_ws/build/rviz_plugin_zed_od': CMAKE_PREFIX_PATH=/home/barusu/ros2_ws/install/zed_interfaces:/home/barusu/ros2_ws/install/zed_ros2:/home/barusu/ros2_ws/install/zed_wrapper:/home/barusu/ros2_ws/install/zed_components:/home/barusu/ros2_ws/install/examples_rclcpp_wait_set:/home/barusu/ros2_ws/install/examples_rclcpp_multithreaded_executor:/home/barusu/ros2_ws/install/examples_rclcpp_minimal_timer:/home/barusu/ros2_ws/install/examples_rclcpp_minimal_subscriber:/home/barusu/ros2_ws/install/examples_rclcpp_minimal_service:/home/barusu/ros2_ws/install/examples_rclcpp_minimal_publisher:/home/barusu/ros2_ws/install/examples_rclcpp_minimal_composition:/home/barusu/ros2_ws/install/examples_rclcpp_minimal_client:/home/barusu/ros2_ws/install/examples_rclcpp_minimal_action_server:/home/barusu/ros2_ws/install/examples_rclcpp_minimal_action_client:/home/barusu/ros2_ws/install/examples_rclcpp_cbg_executor:/home/barusu/ros2_ws/install/examples_rclcpp_async_client:/home/barusu/ros2_ws/install/launch_testing_examples:/home/barusu/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/barusu/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/barusu/ros2_ws/install/examples_rclpy_minimal_service:/home/barusu/ros2_ws/install/examples_rclpy_minimal_publisher:/home/barusu/ros2_ws/install/examples_rclpy_minimal_client:/home/barusu/ros2_ws/install/examples_rclpy_minimal_action_server:/home/barusu/ros2_ws/install/examples_rclpy_minimal_action_client:/home/barusu/ros2_ws/install/examples_rclpy_guard_conditions:/home/barusu/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble LD_LIBRARY_PATH=/home/barusu/ros2_ws/install/zed_interfaces/lib:/home/barusu/ros2_ws/install/zed_components/lib:/home/barusu/ros2_ws/install/examples_rclcpp_wait_set/lib:/home/barusu/ros2_ws/install/examples_rclcpp_minimal_subscriber/lib:/home/barusu/ros2_ws/install/examples_rclcpp_minimal_composition/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /home/barusu/.local/bin/cmake --install /home/barusu/ros2_ws/build/rviz_plugin_zed_od
+[35.350s] -- Install configuration: "Release"
+[35.350s] -- Execute custom install script
+[35.350s] -- Symlinking: /home/barusu/ros2_ws/install/rviz_plugin_zed_od/share/rviz_plugin_zed_od//plugins_description.xml
+[35.353s] -- Symlinking: /home/barusu/ros2_ws/install/rviz_plugin_zed_od/share/rviz_plugin_zed_od/environment/library_path.sh
+[35.356s] -- Symlinking: /home/barusu/ros2_ws/install/rviz_plugin_zed_od/share/rviz_plugin_zed_od/environment/library_path.dsv
+[35.359s] -- Symlinking: /home/barusu/ros2_ws/install/rviz_plugin_zed_od/include/rviz_plugin_zed_od//visibility_control.hpp
+[35.361s] -- Symlinking: /home/barusu/ros2_ws/install/rviz_plugin_zed_od/include/rviz_plugin_zed_od//zed_body_parts.hpp
+[35.364s] -- Symlinking: /home/barusu/ros2_ws/install/rviz_plugin_zed_od/include/rviz_plugin_zed_od//zed_od_display.hpp
+[35.366s] -- Symlinking: /home/barusu/ros2_ws/install/rviz_plugin_zed_od/include/rviz_plugin_zed_od//zed_od_info.hpp
+[35.369s] -- Symlinking: /home/barusu/ros2_ws/install/rviz_plugin_zed_od/share/rviz_plugin_zed_od/icons/ZedObjDet.png
+[35.372s] -- Symlinking: /home/barusu/ros2_ws/install/rviz_plugin_zed_od/share/ament_index/resource_index/package_run_dependencies/rviz_plugin_zed_od
+[35.374s] -- Symlinking: /home/barusu/ros2_ws/install/rviz_plugin_zed_od/share/ament_index/resource_index/parent_prefix_path/rviz_plugin_zed_od
+[35.377s] -- Symlinking: /home/barusu/ros2_ws/install/rviz_plugin_zed_od/share/rviz_plugin_zed_od/environment/ament_prefix_path.sh
+[35.379s] -- Symlinking: /home/barusu/ros2_ws/install/rviz_plugin_zed_od/share/rviz_plugin_zed_od/environment/ament_prefix_path.dsv
+[35.383s] -- Symlinking: /home/barusu/ros2_ws/install/rviz_plugin_zed_od/share/rviz_plugin_zed_od/environment/path.sh
+[35.385s] -- Symlinking: /home/barusu/ros2_ws/install/rviz_plugin_zed_od/share/rviz_plugin_zed_od/environment/path.dsv
+[35.388s] -- Symlinking: /home/barusu/ros2_ws/install/rviz_plugin_zed_od/share/rviz_plugin_zed_od/local_setup.bash
+[35.390s] -- Symlinking: /home/barusu/ros2_ws/install/rviz_plugin_zed_od/share/rviz_plugin_zed_od/local_setup.sh
+[35.393s] -- Symlinking: /home/barusu/ros2_ws/install/rviz_plugin_zed_od/share/rviz_plugin_zed_od/local_setup.zsh
+[35.395s] -- Symlinking: /home/barusu/ros2_ws/install/rviz_plugin_zed_od/share/rviz_plugin_zed_od/local_setup.dsv
+[35.398s] -- Symlinking: /home/barusu/ros2_ws/install/rviz_plugin_zed_od/share/rviz_plugin_zed_od/package.dsv
+[35.401s] -- Symlinking: /home/barusu/ros2_ws/install/rviz_plugin_zed_od/share/ament_index/resource_index/packages/rviz_plugin_zed_od
+[35.403s] -- Symlinking: /home/barusu/ros2_ws/install/rviz_plugin_zed_od/share/ament_index/resource_index/rviz_common__pluginlib__plugin/rviz_plugin_zed_od
+[35.406s] -- Symlinking: /home/barusu/ros2_ws/install/rviz_plugin_zed_od/share/rviz_plugin_zed_od/cmake/ament_cmake_export_include_directories-extras.cmake
+[35.409s] -- Symlinking: /home/barusu/ros2_ws/install/rviz_plugin_zed_od/share/rviz_plugin_zed_od/cmake/ament_cmake_export_targets-extras.cmake
+[35.411s] -- Symlinking: /home/barusu/ros2_ws/install/rviz_plugin_zed_od/share/rviz_plugin_zed_od/cmake/ament_cmake_export_dependencies-extras.cmake
+[35.414s] -- Symlinking: /home/barusu/ros2_ws/install/rviz_plugin_zed_od/share/rviz_plugin_zed_od/cmake/rviz_plugin_zed_odConfig.cmake
+[35.416s] -- Symlinking: /home/barusu/ros2_ws/install/rviz_plugin_zed_od/share/rviz_plugin_zed_od/cmake/rviz_plugin_zed_odConfig-version.cmake
+[35.419s] -- Symlinking: /home/barusu/ros2_ws/install/rviz_plugin_zed_od/share/rviz_plugin_zed_od/package.xml
+[35.421s] -- Installing: /home/barusu/ros2_ws/install/rviz_plugin_zed_od/lib/librviz_plugin_zed_od.so
+[35.423s] -- Set runtime path of "/home/barusu/ros2_ws/install/rviz_plugin_zed_od/lib/librviz_plugin_zed_od.so" to ""
+[35.423s] -- Installing: /home/barusu/ros2_ws/install/rviz_plugin_zed_od/share/rviz_plugin_zed_od/cmake/rviz_plugin_zed_odExport.cmake
+[35.423s] -- Installing: /home/barusu/ros2_ws/install/rviz_plugin_zed_od/share/rviz_plugin_zed_od/cmake/rviz_plugin_zed_odExport-release.cmake
+[35.432s] Invoked command in '/home/barusu/ros2_ws/build/rviz_plugin_zed_od' returned '0': CMAKE_PREFIX_PATH=/home/barusu/ros2_ws/install/zed_interfaces:/home/barusu/ros2_ws/install/zed_ros2:/home/barusu/ros2_ws/install/zed_wrapper:/home/barusu/ros2_ws/install/zed_components:/home/barusu/ros2_ws/install/examples_rclcpp_wait_set:/home/barusu/ros2_ws/install/examples_rclcpp_multithreaded_executor:/home/barusu/ros2_ws/install/examples_rclcpp_minimal_timer:/home/barusu/ros2_ws/install/examples_rclcpp_minimal_subscriber:/home/barusu/ros2_ws/install/examples_rclcpp_minimal_service:/home/barusu/ros2_ws/install/examples_rclcpp_minimal_publisher:/home/barusu/ros2_ws/install/examples_rclcpp_minimal_composition:/home/barusu/ros2_ws/install/examples_rclcpp_minimal_client:/home/barusu/ros2_ws/install/examples_rclcpp_minimal_action_server:/home/barusu/ros2_ws/install/examples_rclcpp_minimal_action_client:/home/barusu/ros2_ws/install/examples_rclcpp_cbg_executor:/home/barusu/ros2_ws/install/examples_rclcpp_async_client:/home/barusu/ros2_ws/install/launch_testing_examples:/home/barusu/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/barusu/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/barusu/ros2_ws/install/examples_rclpy_minimal_service:/home/barusu/ros2_ws/install/examples_rclpy_minimal_publisher:/home/barusu/ros2_ws/install/examples_rclpy_minimal_client:/home/barusu/ros2_ws/install/examples_rclpy_minimal_action_server:/home/barusu/ros2_ws/install/examples_rclpy_minimal_action_client:/home/barusu/ros2_ws/install/examples_rclpy_guard_conditions:/home/barusu/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble LD_LIBRARY_PATH=/home/barusu/ros2_ws/install/zed_interfaces/lib:/home/barusu/ros2_ws/install/zed_components/lib:/home/barusu/ros2_ws/install/examples_rclcpp_wait_set/lib:/home/barusu/ros2_ws/install/examples_rclcpp_minimal_subscriber/lib:/home/barusu/ros2_ws/install/examples_rclcpp_minimal_composition/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /home/barusu/.local/bin/cmake --install /home/barusu/ros2_ws/build/rviz_plugin_zed_od

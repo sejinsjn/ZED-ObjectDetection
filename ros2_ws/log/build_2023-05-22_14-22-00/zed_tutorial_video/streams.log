@@ -1,0 +1,39 @@
+[0.034s] Invoking command in '/home/barusu/ros2_ws/build/zed_tutorial_video': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /home/barusu/.local/bin/cmake --build /home/barusu/ros2_ws/build/zed_tutorial_video -- -j8 -l8
+[0.123s] -- Found ament_cmake_auto: 1.3.4 (/opt/ros/humble/share/ament_cmake_auto/cmake)
+[0.339s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.540s] -- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.543s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.553s] -- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.571s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.605s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.717s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.720s] -- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.918s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.760s] -- Found ament_lint_auto: 0.12.6 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.777s] -- Configuring done (1.7s)
+[1.814s] -- Generating done (0.0s)
+[1.819s] -- Build files have been written to: /home/barusu/ros2_ws/build/zed_tutorial_video
+[1.868s] [ 50%] [32mBuilding CXX object CMakeFiles/zed_tutorial_video.dir/src/zed_video_sub_tutorial.cpp.o[0m
+[22.237s] [100%] [32m[1mLinking CXX executable zed_tutorial_video[0m
+[22.570s] [100%] Built target zed_tutorial_video
+[22.589s] Invoked command in '/home/barusu/ros2_ws/build/zed_tutorial_video' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /home/barusu/.local/bin/cmake --build /home/barusu/ros2_ws/build/zed_tutorial_video -- -j8 -l8
+[22.694s] Invoking command in '/home/barusu/ros2_ws/build/zed_tutorial_video': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /home/barusu/.local/bin/cmake --install /home/barusu/ros2_ws/build/zed_tutorial_video
+[22.754s] -- Install configuration: "Release"
+[22.755s] -- Execute custom install script
+[22.757s] -- Up-to-date symlink: /home/barusu/ros2_ws/install/zed_tutorial_video/lib/zed_tutorial_video/zed_tutorial_video
+[22.757s] -- Up-to-date symlink: /home/barusu/ros2_ws/install/zed_tutorial_video/share/ament_index/resource_index/package_run_dependencies/zed_tutorial_video
+[22.758s] -- Up-to-date symlink: /home/barusu/ros2_ws/install/zed_tutorial_video/share/ament_index/resource_index/parent_prefix_path/zed_tutorial_video
+[22.759s] -- Up-to-date symlink: /home/barusu/ros2_ws/install/zed_tutorial_video/share/zed_tutorial_video/environment/ament_prefix_path.sh
+[22.759s] -- Up-to-date symlink: /home/barusu/ros2_ws/install/zed_tutorial_video/share/zed_tutorial_video/environment/ament_prefix_path.dsv
+[22.760s] -- Up-to-date symlink: /home/barusu/ros2_ws/install/zed_tutorial_video/share/zed_tutorial_video/environment/path.sh
+[22.760s] -- Up-to-date symlink: /home/barusu/ros2_ws/install/zed_tutorial_video/share/zed_tutorial_video/environment/path.dsv
+[22.761s] -- Up-to-date symlink: /home/barusu/ros2_ws/install/zed_tutorial_video/share/zed_tutorial_video/local_setup.bash
+[22.761s] -- Up-to-date symlink: /home/barusu/ros2_ws/install/zed_tutorial_video/share/zed_tutorial_video/local_setup.sh
+[22.762s] -- Up-to-date symlink: /home/barusu/ros2_ws/install/zed_tutorial_video/share/zed_tutorial_video/local_setup.zsh
+[22.762s] -- Up-to-date symlink: /home/barusu/ros2_ws/install/zed_tutorial_video/share/zed_tutorial_video/local_setup.dsv
+[22.762s] -- Symlinking: /home/barusu/ros2_ws/install/zed_tutorial_video/share/zed_tutorial_video/package.dsv
+[22.769s] -- Up-to-date symlink: /home/barusu/ros2_ws/install/zed_tutorial_video/share/ament_index/resource_index/packages/zed_tutorial_video
+[22.769s] -- Up-to-date symlink: /home/barusu/ros2_ws/install/zed_tutorial_video/share/zed_tutorial_video/cmake/zed_tutorial_videoConfig.cmake
+[22.770s] -- Up-to-date symlink: /home/barusu/ros2_ws/install/zed_tutorial_video/share/zed_tutorial_video/cmake/zed_tutorial_videoConfig-version.cmake
+[22.771s] -- Up-to-date symlink: /home/barusu/ros2_ws/install/zed_tutorial_video/share/zed_tutorial_video/package.xml
+[22.787s] Invoked command in '/home/barusu/ros2_ws/build/zed_tutorial_video' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /home/barusu/.local/bin/cmake --install /home/barusu/ros2_ws/build/zed_tutorial_video

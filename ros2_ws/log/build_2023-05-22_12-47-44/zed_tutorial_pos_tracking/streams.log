@@ -1,0 +1,70 @@
+[0.026s] Invoking command in '/home/barusu/ros2_ws/build/zed_tutorial_pos_tracking': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/barusu/ros2_ws/install/launch_testing_examples:/home/barusu/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/barusu/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/barusu/ros2_ws/install/examples_rclpy_minimal_service:/home/barusu/ros2_ws/install/examples_rclpy_minimal_publisher:/home/barusu/ros2_ws/install/examples_rclpy_minimal_client:/home/barusu/ros2_ws/install/examples_rclpy_minimal_action_server:/home/barusu/ros2_ws/install/examples_rclpy_minimal_action_client:/home/barusu/ros2_ws/install/examples_rclpy_guard_conditions:/home/barusu/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /home/barusu/.local/bin/cmake /home/barusu/ros2_ws/src/zed-ros2-examples/tutorials/zed_pose_tutorial -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/barusu/ros2_ws/install/zed_tutorial_pos_tracking
+[0.128s] -- The C compiler identification is GNU 11.3.0
+[0.231s] -- The CXX compiler identification is GNU 11.3.0
+[0.247s] -- Detecting C compiler ABI info
+[0.326s] -- Detecting C compiler ABI info - done
+[0.347s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.347s] -- Detecting C compile features
+[0.348s] -- Detecting C compile features - done
+[0.353s] -- Detecting CXX compiler ABI info
+[0.430s] -- Detecting CXX compiler ABI info - done
+[0.444s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.444s] -- Detecting CXX compile features
+[0.445s] -- Detecting CXX compile features - done
+[0.448s] -- Found ament_cmake_auto: 1.3.4 (/opt/ros/humble/share/ament_cmake_auto/cmake)
+[1.284s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[1.388s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.592s] -- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.603s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.618s] -- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.642s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.679s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.796s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.801s] -- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.954s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[2.000s] -- Found FastRTPS: /opt/ros/humble/include  
+[2.100s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.119s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.219s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[2.223s] -- Found Threads: TRUE  
+[3.811s] -- Found ament_lint_auto: 0.12.6 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[3.880s] -- Added test 'copyright' to check source files copyright and LICENSE
+[3.883s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[3.884s] -- Configured cppcheck include dirs: 
+[3.884s] -- Configured cppcheck exclude dirs and/or files: 
+[3.887s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[3.887s] -- Configured cpplint exclude dirs and/or files: 
+[3.890s] -- Added test 'lint_cmake' to check CMake code style
+[3.893s] -- Added test 'uncrustify' to check C / C++ code style
+[3.894s] -- Configured uncrustify additional arguments: 
+[3.896s] -- Added test 'xmllint' to check XML markup files
+[3.902s] -- Added test 'clang_format' to check C / C++ code style
+[3.906s] -- Configuring done (3.9s)
+[3.940s] -- Generating done (0.0s)
+[3.944s] -- Build files have been written to: /home/barusu/ros2_ws/build/zed_tutorial_pos_tracking
+[3.983s] Invoked command in '/home/barusu/ros2_ws/build/zed_tutorial_pos_tracking' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/barusu/ros2_ws/install/launch_testing_examples:/home/barusu/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/barusu/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/barusu/ros2_ws/install/examples_rclpy_minimal_service:/home/barusu/ros2_ws/install/examples_rclpy_minimal_publisher:/home/barusu/ros2_ws/install/examples_rclpy_minimal_client:/home/barusu/ros2_ws/install/examples_rclpy_minimal_action_server:/home/barusu/ros2_ws/install/examples_rclpy_minimal_action_client:/home/barusu/ros2_ws/install/examples_rclpy_guard_conditions:/home/barusu/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /home/barusu/.local/bin/cmake /home/barusu/ros2_ws/src/zed-ros2-examples/tutorials/zed_pose_tutorial -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/barusu/ros2_ws/install/zed_tutorial_pos_tracking
+[3.983s] Invoking command in '/home/barusu/ros2_ws/build/zed_tutorial_pos_tracking': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/barusu/ros2_ws/install/launch_testing_examples:/home/barusu/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/barusu/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/barusu/ros2_ws/install/examples_rclpy_minimal_service:/home/barusu/ros2_ws/install/examples_rclpy_minimal_publisher:/home/barusu/ros2_ws/install/examples_rclpy_minimal_client:/home/barusu/ros2_ws/install/examples_rclpy_minimal_action_server:/home/barusu/ros2_ws/install/examples_rclpy_minimal_action_client:/home/barusu/ros2_ws/install/examples_rclpy_guard_conditions:/home/barusu/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /home/barusu/.local/bin/cmake --build /home/barusu/ros2_ws/build/zed_tutorial_pos_tracking -- -j8 -l8
+[6.509s] [ 50%] [32mBuilding CXX object CMakeFiles/zed_tutorial_pos_tracking.dir/src/zed_tutorial_pos_tracking.cpp.o[0m
+[32.017s] [100%] [32m[1mLinking CXX executable zed_tutorial_pos_tracking[0m
+[32.445s] [100%] Built target zed_tutorial_pos_tracking
+[32.463s] Invoked command in '/home/barusu/ros2_ws/build/zed_tutorial_pos_tracking' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/barusu/ros2_ws/install/launch_testing_examples:/home/barusu/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/barusu/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/barusu/ros2_ws/install/examples_rclpy_minimal_service:/home/barusu/ros2_ws/install/examples_rclpy_minimal_publisher:/home/barusu/ros2_ws/install/examples_rclpy_minimal_client:/home/barusu/ros2_ws/install/examples_rclpy_minimal_action_server:/home/barusu/ros2_ws/install/examples_rclpy_minimal_action_client:/home/barusu/ros2_ws/install/examples_rclpy_guard_conditions:/home/barusu/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /home/barusu/.local/bin/cmake --build /home/barusu/ros2_ws/build/zed_tutorial_pos_tracking -- -j8 -l8
+[32.579s] Invoking command in '/home/barusu/ros2_ws/build/zed_tutorial_pos_tracking': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/barusu/ros2_ws/install/launch_testing_examples:/home/barusu/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/barusu/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/barusu/ros2_ws/install/examples_rclpy_minimal_service:/home/barusu/ros2_ws/install/examples_rclpy_minimal_publisher:/home/barusu/ros2_ws/install/examples_rclpy_minimal_client:/home/barusu/ros2_ws/install/examples_rclpy_minimal_action_server:/home/barusu/ros2_ws/install/examples_rclpy_minimal_action_client:/home/barusu/ros2_ws/install/examples_rclpy_guard_conditions:/home/barusu/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /home/barusu/.local/bin/cmake --install /home/barusu/ros2_ws/build/zed_tutorial_pos_tracking
+[32.645s] -- Install configuration: "Release"
+[32.646s] -- Execute custom install script
+[32.647s] -- Symlinking: /home/barusu/ros2_ws/install/zed_tutorial_pos_tracking/lib/zed_tutorial_pos_tracking/zed_tutorial_pos_tracking
+[32.653s] -- Symlinking: /home/barusu/ros2_ws/install/zed_tutorial_pos_tracking/share/ament_index/resource_index/package_run_dependencies/zed_tutorial_pos_tracking
+[32.659s] -- Symlinking: /home/barusu/ros2_ws/install/zed_tutorial_pos_tracking/share/ament_index/resource_index/parent_prefix_path/zed_tutorial_pos_tracking
+[32.665s] -- Symlinking: /home/barusu/ros2_ws/install/zed_tutorial_pos_tracking/share/zed_tutorial_pos_tracking/environment/ament_prefix_path.sh
+[32.671s] -- Symlinking: /home/barusu/ros2_ws/install/zed_tutorial_pos_tracking/share/zed_tutorial_pos_tracking/environment/ament_prefix_path.dsv
+[32.677s] -- Symlinking: /home/barusu/ros2_ws/install/zed_tutorial_pos_tracking/share/zed_tutorial_pos_tracking/environment/path.sh
+[32.683s] -- Symlinking: /home/barusu/ros2_ws/install/zed_tutorial_pos_tracking/share/zed_tutorial_pos_tracking/environment/path.dsv
+[32.689s] -- Symlinking: /home/barusu/ros2_ws/install/zed_tutorial_pos_tracking/share/zed_tutorial_pos_tracking/local_setup.bash
+[32.696s] -- Symlinking: /home/barusu/ros2_ws/install/zed_tutorial_pos_tracking/share/zed_tutorial_pos_tracking/local_setup.sh
+[32.702s] -- Symlinking: /home/barusu/ros2_ws/install/zed_tutorial_pos_tracking/share/zed_tutorial_pos_tracking/local_setup.zsh
+[32.708s] -- Symlinking: /home/barusu/ros2_ws/install/zed_tutorial_pos_tracking/share/zed_tutorial_pos_tracking/local_setup.dsv
+[32.714s] -- Symlinking: /home/barusu/ros2_ws/install/zed_tutorial_pos_tracking/share/zed_tutorial_pos_tracking/package.dsv
+[32.720s] -- Symlinking: /home/barusu/ros2_ws/install/zed_tutorial_pos_tracking/share/ament_index/resource_index/packages/zed_tutorial_pos_tracking
+[32.726s] -- Symlinking: /home/barusu/ros2_ws/install/zed_tutorial_pos_tracking/share/zed_tutorial_pos_tracking/cmake/zed_tutorial_pos_trackingConfig.cmake
+[32.732s] -- Symlinking: /home/barusu/ros2_ws/install/zed_tutorial_pos_tracking/share/zed_tutorial_pos_tracking/cmake/zed_tutorial_pos_trackingConfig-version.cmake
+[32.738s] -- Symlinking: /home/barusu/ros2_ws/install/zed_tutorial_pos_tracking/share/zed_tutorial_pos_tracking/package.xml
+[32.760s] Invoked command in '/home/barusu/ros2_ws/build/zed_tutorial_pos_tracking' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/barusu/ros2_ws/install/launch_testing_examples:/home/barusu/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/barusu/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/barusu/ros2_ws/install/examples_rclpy_minimal_service:/home/barusu/ros2_ws/install/examples_rclpy_minimal_publisher:/home/barusu/ros2_ws/install/examples_rclpy_minimal_client:/home/barusu/ros2_ws/install/examples_rclpy_minimal_action_server:/home/barusu/ros2_ws/install/examples_rclpy_minimal_action_client:/home/barusu/ros2_ws/install/examples_rclpy_guard_conditions:/home/barusu/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /home/barusu/.local/bin/cmake --install /home/barusu/ros2_ws/build/zed_tutorial_pos_tracking
